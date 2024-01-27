@@ -1,0 +1,2021 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter.filedialog",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter.filedialog",
+        "description": "tkinter.filedialog",
+        "detail": "tkinter.filedialog",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "other.cons",
+        "description": "other.cons",
+        "isExtraImport": true,
+        "detail": "other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "Finder",
+        "importPath": "other.astar",
+        "description": "other.astar",
+        "isExtraImport": true,
+        "detail": "other.astar",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "importPath": "other.utilz",
+        "description": "other.utilz",
+        "isExtraImport": true,
+        "detail": "other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "player.player",
+        "description": "player.player",
+        "isExtraImport": true,
+        "detail": "player.player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "player.player",
+        "description": "player.player",
+        "isExtraImport": true,
+        "detail": "player.player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "player.player",
+        "description": "player.player",
+        "isExtraImport": true,
+        "detail": "player.player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "player.player",
+        "description": "player.player",
+        "isExtraImport": true,
+        "detail": "player.player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "player.player",
+        "description": "player.player",
+        "isExtraImport": true,
+        "detail": "player.player",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Wall",
+        "importPath": "environment.wall",
+        "description": "environment.wall",
+        "isExtraImport": true,
+        "detail": "environment.wall",
+        "documentation": {}
+    },
+    {
+        "label": "Wall",
+        "importPath": "environment.wall",
+        "description": "environment.wall",
+        "isExtraImport": true,
+        "detail": "environment.wall",
+        "documentation": {}
+    },
+    {
+        "label": "Wall",
+        "importPath": "environment.wall",
+        "description": "environment.wall",
+        "isExtraImport": true,
+        "detail": "environment.wall",
+        "documentation": {}
+    },
+    {
+        "label": "Pet",
+        "importPath": "environment.pet",
+        "description": "environment.pet",
+        "isExtraImport": true,
+        "detail": "environment.pet",
+        "documentation": {}
+    },
+    {
+        "label": "Pet",
+        "importPath": "environment.pet",
+        "description": "environment.pet",
+        "isExtraImport": true,
+        "detail": "environment.pet",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_neighbors",
+        "importPath": "stuff.astar",
+        "description": "stuff.astar",
+        "isExtraImport": true,
+        "detail": "stuff.astar",
+        "documentation": {}
+    },
+    {
+        "label": "build",
+        "importPath": "googleapiclient.discovery",
+        "description": "googleapiclient.discovery",
+        "isExtraImport": true,
+        "detail": "googleapiclient.discovery",
+        "documentation": {}
+    },
+    {
+        "label": "HttpError",
+        "importPath": "googleapiclient.errors",
+        "description": "googleapiclient.errors",
+        "isExtraImport": true,
+        "detail": "googleapiclient.errors",
+        "documentation": {}
+    },
+    {
+        "label": "service_account",
+        "importPath": "google.oauth2",
+        "description": "google.oauth2",
+        "isExtraImport": true,
+        "detail": "google.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceMatcher",
+        "importPath": "difflib",
+        "description": "difflib",
+        "isExtraImport": true,
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceMatcher",
+        "importPath": "difflib",
+        "description": "difflib",
+        "isExtraImport": true,
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceMatcher",
+        "importPath": "difflib",
+        "description": "difflib",
+        "isExtraImport": true,
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "threading,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading.",
+        "description": "threading.",
+        "detail": "threading.",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pygame.locals",
+        "description": "pygame.locals",
+        "isExtraImport": true,
+        "detail": "pygame.locals",
+        "documentation": {}
+    },
+    {
+        "label": "telebot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "telebot",
+        "description": "telebot",
+        "detail": "telebot",
+        "documentation": {}
+    },
+    {
+        "label": "TeleBot",
+        "importPath": "telebot",
+        "description": "telebot",
+        "isExtraImport": true,
+        "detail": "telebot",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "telebot",
+        "description": "telebot",
+        "isExtraImport": true,
+        "detail": "telebot",
+        "documentation": {}
+    },
+    {
+        "label": "formatting",
+        "importPath": "telebot",
+        "description": "telebot",
+        "isExtraImport": true,
+        "detail": "telebot",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "tg.database",
+        "description": "tg.database",
+        "isExtraImport": true,
+        "detail": "tg.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "tg.database",
+        "description": "tg.database",
+        "isExtraImport": true,
+        "detail": "tg.database",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "importPath": "environment.trader",
+        "description": "environment.trader",
+        "isExtraImport": true,
+        "detail": "environment.trader",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "importPath": "environment.trader",
+        "description": "environment.trader",
+        "isExtraImport": true,
+        "detail": "environment.trader",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "argparse,os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse.os",
+        "description": "argparse.os",
+        "detail": "argparse.os",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "PlayersShadow",
+        "importPath": "player.shadow",
+        "description": "player.shadow",
+        "isExtraImport": true,
+        "detail": "player.shadow",
+        "documentation": {}
+    },
+    {
+        "label": "BotManager",
+        "importPath": "tg.bot",
+        "description": "tg.bot",
+        "isExtraImport": true,
+        "detail": "tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "Star",
+        "importPath": "environment.star",
+        "description": "environment.star",
+        "isExtraImport": true,
+        "detail": "environment.star",
+        "documentation": {}
+    },
+    {
+        "label": "Tnt",
+        "importPath": "environment.tnt",
+        "description": "environment.tnt",
+        "isExtraImport": true,
+        "detail": "environment.tnt",
+        "documentation": {}
+    },
+    {
+        "label": "path_to_name",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def path_to_name(p):\n    path = pathlib.PurePath(p)\n    return path.name\ndef title_changer(pref, path):\n    print(path)\n    if path == \"New file\":\n        root.title(f\"New file - Notepad {pref}\")\n    else:\n        root.title(f\"{path_to_name(path)} - Notepad {pref}\")\ndef cut():",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "title_changer",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def title_changer(pref, path):\n    print(path)\n    if path == \"New file\":\n        root.title(f\"New file - Notepad {pref}\")\n    else:\n        root.title(f\"{path_to_name(path)} - Notepad {pref}\")\ndef cut():\n    text_w.event_generate(\"<<Cut>>\")\ndef copy():\n    text_w.event_generate(\"<<Copy>>\")",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "cut",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def cut():\n    text_w.event_generate(\"<<Cut>>\")\ndef copy():\n    text_w.event_generate(\"<<Copy>>\")\ndef paste():\n    text_w.event_generate(\"<<Paste>>\")\ndef create_f():\n    global saved, current_path\n    root.title(\"New file\")\n    text_w.delete(1.0,\"end\")",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def copy():\n    text_w.event_generate(\"<<Copy>>\")\ndef paste():\n    text_w.event_generate(\"<<Paste>>\")\ndef create_f():\n    global saved, current_path\n    root.title(\"New file\")\n    text_w.delete(1.0,\"end\")\n    saved = False\n    current_path = \"\"",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "paste",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def paste():\n    text_w.event_generate(\"<<Paste>>\")\ndef create_f():\n    global saved, current_path\n    root.title(\"New file\")\n    text_w.delete(1.0,\"end\")\n    saved = False\n    current_path = \"\"\ndef new_window():\n    subprocess.run(['python', \"main.py\"])",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_f",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def create_f():\n    global saved, current_path\n    root.title(\"New file\")\n    text_w.delete(1.0,\"end\")\n    saved = False\n    current_path = \"\"\ndef new_window():\n    subprocess.run(['python', \"main.py\"])\ndef open_f():\n    global current_path",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "new_window",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def new_window():\n    subprocess.run(['python', \"main.py\"])\ndef open_f():\n    global current_path\n    file_p = fd.askopenfilename(title=\"Please select your file\", defaultextension=\".txt\", filetypes=[(\"Text files\", \"*.txt\"), (\"All files\", \"*\")])\n    if not current_path:\n        current_path = \"New file\"\n        return\n    with open(file_p, \"r\",encoding='utf-8') as file:\n        rl:list = file.readlines()",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "open_f",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def open_f():\n    global current_path\n    file_p = fd.askopenfilename(title=\"Please select your file\", defaultextension=\".txt\", filetypes=[(\"Text files\", \"*.txt\"), (\"All files\", \"*\")])\n    if not current_path:\n        current_path = \"New file\"\n        return\n    with open(file_p, \"r\",encoding='utf-8') as file:\n        rl:list = file.readlines()\n        rls = \"\\n\".join(rl)\n        text_w.delete(\"1.0\", tk.END)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "typi",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def typi(evt):\n    title_changer(\"*\", current_path)\ndef help():\n    webbrowser.open(\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\")\ndef saving():\n    global current_path\n    # check is  file name basic\n    if current_path == \"New file\":\n        current_path = fd.asksaveasfilename(title=\"Please select your file to save\", defaultextension=\".txt\", filetypes=[(\"Text files\", \"*.txt\"), (\"All files\", \"*\")])\n        if not current_path:",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "help",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def help():\n    webbrowser.open(\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\")\ndef saving():\n    global current_path\n    # check is  file name basic\n    if current_path == \"New file\":\n        current_path = fd.asksaveasfilename(title=\"Please select your file to save\", defaultextension=\".txt\", filetypes=[(\"Text files\", \"*.txt\"), (\"All files\", \"*\")])\n        if not current_path:\n            current_path = \"New file\"\n            return",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "saving",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def saving():\n    global current_path\n    # check is  file name basic\n    if current_path == \"New file\":\n        current_path = fd.asksaveasfilename(title=\"Please select your file to save\", defaultextension=\".txt\", filetypes=[(\"Text files\", \"*.txt\"), (\"All files\", \"*\")])\n        if not current_path:\n            current_path = \"New file\"\n            return\n    title_changer(\"\", current_path)\n    # save to file",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "saving_as",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def saving_as():\n    global current_path\n    # check is  file name basic\n    current_path = fd.asksaveasfilename(title=\"Please select your file to save as\",defaultextension=\".txt\", filetypes=[(\"Text files\", \"*.txt\"), (\"All files\", \"*\")])\n    if not current_path:\n        current_path = \"New file\"\n        return\n    title_changer(\"\", current_path)\n    # save to file\n    txt_box_inf = text_w.get(1.0, tk.END)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "fontik",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def fontik():\n    global font\n    font_p = fd.askopenfilename(title=\"Please select your font\")\n    if font_p != \"\":\n        font = (font_p, font[1])\n        text_w.config(font=font)\nfile_menu = tk.Menu(menush)\nfile_menu.add_command(label=\"Create               \",command=create_f)\nfile_menu.add_command(label=\"New window               \",command=new_window)\nfile_menu.add_command(label=\"Open               \", command=open_f)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "typer",
+        "kind": 2,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "def typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n    else:\n        print(\"end\")\n    root.after(50, typer)\nroot.after(50, typer)\n# if __name__ == '__main__':",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "root = tk.Tk()\nroot.title(\"New file - Notepad\")\nroot.iconbitmap(\"img/icon.ico\")\nroot.geometry(\"600x400\")\nfont=(\"Consolas\", 14)\n# root.resizable(False, False)\nmenush = tk.Menu(root)\nroot.config(menu=menush)\n# menush.add_command(label='File')\n# menush.add_command(label='Edit')",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "menush",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "menush = tk.Menu(root)\nroot.config(menu=menush)\n# menush.add_command(label='File')\n# menush.add_command(label='Edit')\n# menush.add_command(label='Format')\n# menush.add_command(label='Appearance')\n# menush.add_command(label='Help')\ndef path_to_name(p):\n    path = pathlib.PurePath(p)\n    return path.name",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "file_menu",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "file_menu = tk.Menu(menush)\nfile_menu.add_command(label=\"Create               \",command=create_f)\nfile_menu.add_command(label=\"New window               \",command=new_window)\nfile_menu.add_command(label=\"Open               \", command=open_f)\nfile_menu.add_command(label=\"Save               \",command=saving)\nfile_menu.add_command(label=\"Save As               \",command=saving_as)\nfile_menu.add_separator()\nfile_menu.add_command(label=\"Print               \")\nfile_menu.add_separator()\nfile_menu.add_command(label=\"Exit               \",command=sys.exit)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "edit_menu",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "edit_menu = tk.Menu(menush)\nedit_menu.add_command(label=\"Cut               \",command=cut)\nedit_menu.add_command(label=\"Copy               \", command=copy)\nedit_menu.add_command(label=\"Paste               \", command=paste)\nmenush.add_cascade(label=\"Edit\", menu=edit_menu)\nformat_menu = tk.Menu(menush)\nformat_menu.add_command(label=\"Font               \",command=fontik)\nformat_menu.add_command(label=\"Scale               \")\nmenush.add_cascade(label=\"Format\", menu=format_menu)\nhelp_menu = tk.Menu(menush)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "format_menu",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "format_menu = tk.Menu(menush)\nformat_menu.add_command(label=\"Font               \",command=fontik)\nformat_menu.add_command(label=\"Scale               \")\nmenush.add_cascade(label=\"Format\", menu=format_menu)\nhelp_menu = tk.Menu(menush)\nhelp_menu.add_command(label=\"See help               \",command=help)\nmenush.add_cascade(label=\"Help\", menu=help_menu)\ntext_w = tk.Text(root, wrap = \"word\", bg=\"white\",font=font)\ntext_w.pack(expand=\"yes\", fill=\"both\")\ntext_w.bind(\"<KeyRelease>\", typi)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "help_menu",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "help_menu = tk.Menu(menush)\nhelp_menu.add_command(label=\"See help               \",command=help)\nmenush.add_cascade(label=\"Help\", menu=help_menu)\ntext_w = tk.Text(root, wrap = \"word\", bg=\"white\",font=font)\ntext_w.pack(expand=\"yes\", fill=\"both\")\ntext_w.bind(\"<KeyRelease>\", typi)\nsaved = False\ncurrent_path = \"New file\"\nwith open(\"text.json\",encoding=\"utf8\") as f:\n    fr = json.load(f)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "text_w",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "text_w = tk.Text(root, wrap = \"word\", bg=\"white\",font=font)\ntext_w.pack(expand=\"yes\", fill=\"both\")\ntext_w.bind(\"<KeyRelease>\", typi)\nsaved = False\ncurrent_path = \"New file\"\nwith open(\"text.json\",encoding=\"utf8\") as f:\n    fr = json.load(f)\ntext = fr[\"text\"]\nindx = -1\ndef typer():",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "saved",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "saved = False\ncurrent_path = \"New file\"\nwith open(\"text.json\",encoding=\"utf8\") as f:\n    fr = json.load(f)\ntext = fr[\"text\"]\nindx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "current_path",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "current_path = \"New file\"\nwith open(\"text.json\",encoding=\"utf8\") as f:\n    fr = json.load(f)\ntext = fr[\"text\"]\nindx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "text = fr[\"text\"]\nindx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n    else:\n        print(\"end\")\n    root.after(50, typer)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "indx",
+        "kind": 5,
+        "importPath": "bloknot.main",
+        "description": "bloknot.main",
+        "peekOfCode": "indx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n    else:\n        print(\"end\")\n    root.after(50, typer)\nroot.after(50, typer)",
+        "detail": "bloknot.main",
+        "documentation": {}
+    },
+    {
+        "label": "Pet",
+        "kind": 6,
+        "importPath": "game.environment.pet",
+        "description": "game.environment.pet",
+        "peekOfCode": "class Pet(pygame.sprite.Sprite):\n    def __init__(self,uuid, shadow_group, player_group,trader_group, walls, pos,img, damage_cd, speed,player,shadow,reach,stun_chance,damage,is_rock) -> None:\n        super().__init__()\n        self.or_img = img.copy()\n        self.stun_img:pygame.Surface = img.copy()\n        self.stun_img.fill((255, 255, 255, 200), None, pygame.BLEND_RGBA_MULT)\n        self.image = img \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.stun_timer = 0",
+        "detail": "game.environment.pet",
+        "documentation": {}
+    },
+    {
+        "label": "water_drop",
+        "kind": 5,
+        "importPath": "game.environment.pet",
+        "description": "game.environment.pet",
+        "peekOfCode": "water_drop = pygame.transform.scale(pygame.image.load(\"res/gfx/water.png\"), (35,35))\nfire = pygame.transform.scale(pygame.image.load(\"res/gfx/fire.png\"), (35,35))\nclass Pet(pygame.sprite.Sprite):\n    def __init__(self,uuid, shadow_group, player_group,trader_group, walls, pos,img, damage_cd, speed,player,shadow,reach,stun_chance,damage,is_rock) -> None:\n        super().__init__()\n        self.or_img = img.copy()\n        self.stun_img:pygame.Surface = img.copy()\n        self.stun_img.fill((255, 255, 255, 200), None, pygame.BLEND_RGBA_MULT)\n        self.image = img \n        self.rect = self.image.get_rect()",
+        "detail": "game.environment.pet",
+        "documentation": {}
+    },
+    {
+        "label": "fire",
+        "kind": 5,
+        "importPath": "game.environment.pet",
+        "description": "game.environment.pet",
+        "peekOfCode": "fire = pygame.transform.scale(pygame.image.load(\"res/gfx/fire.png\"), (35,35))\nclass Pet(pygame.sprite.Sprite):\n    def __init__(self,uuid, shadow_group, player_group,trader_group, walls, pos,img, damage_cd, speed,player,shadow,reach,stun_chance,damage,is_rock) -> None:\n        super().__init__()\n        self.or_img = img.copy()\n        self.stun_img:pygame.Surface = img.copy()\n        self.stun_img.fill((255, 255, 255, 200), None, pygame.BLEND_RGBA_MULT)\n        self.image = img \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos",
+        "detail": "game.environment.pet",
+        "documentation": {}
+    },
+    {
+        "label": "Star",
+        "kind": 6,
+        "importPath": "game.environment.star",
+        "description": "game.environment.star",
+        "peekOfCode": "class Star(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False\n        self.stars = s \n        self.walls = w \n        self.my_sound =pygame.mixer.Sound(\"res/music/loot/star.ogg\")",
+        "detail": "game.environment.star",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "game.environment.star",
+        "description": "game.environment.star",
+        "peekOfCode": "s1 = pygame.transform.scale(pygame.image.load('res/star.png'), (50,50))\ns2 = pygame.transform.scale(pygame.image.load('res/star2.png'), (50,50))\nclass Star(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False\n        self.stars = s ",
+        "detail": "game.environment.star",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "game.environment.star",
+        "description": "game.environment.star",
+        "peekOfCode": "s2 = pygame.transform.scale(pygame.image.load('res/star2.png'), (50,50))\nclass Star(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False\n        self.stars = s \n        self.walls = w ",
+        "detail": "game.environment.star",
+        "documentation": {}
+    },
+    {
+        "label": "Tnt",
+        "kind": 6,
+        "importPath": "game.environment.tnt",
+        "description": "game.environment.tnt",
+        "peekOfCode": "class Tnt(pygame.sprite.Sprite):\n    def __init__(self, pos, s, w,shadow,star_group) -> None:\n        super().__init__()\n        self.image = s1\n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False\n        self.stars = s\n        self.walls = w\n        self.tick = 0",
+        "detail": "game.environment.tnt",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "game.environment.tnt",
+        "description": "game.environment.tnt",
+        "peekOfCode": "s1 = pygame.transform.scale(pygame.image.load('res/tnt.png'), (50, 50))\ns2 = pygame.Surface((50, 50))\ns2.fill(WHITE)\nclass Tnt(pygame.sprite.Sprite):\n    def __init__(self, pos, s, w,shadow,star_group) -> None:\n        super().__init__()\n        self.image = s1\n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False",
+        "detail": "game.environment.tnt",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "game.environment.tnt",
+        "description": "game.environment.tnt",
+        "peekOfCode": "s2 = pygame.Surface((50, 50))\ns2.fill(WHITE)\nclass Tnt(pygame.sprite.Sprite):\n    def __init__(self, pos, s, w,shadow,star_group) -> None:\n        super().__init__()\n        self.image = s1\n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False\n        self.stars = s",
+        "detail": "game.environment.tnt",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "game.environment.trader",
+        "description": "game.environment.trader",
+        "peekOfCode": "class Trader(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False\n        self.stars = s \n        self.walls = w \n        self.level = 1",
+        "detail": "game.environment.trader",
+        "documentation": {}
+    },
+    {
+        "label": "load_js",
+        "kind": 2,
+        "importPath": "game.environment.trader",
+        "description": "game.environment.trader",
+        "peekOfCode": "def load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\nclass Trader(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n        self.coll = False",
+        "detail": "game.environment.trader",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "game.environment.trader",
+        "description": "game.environment.trader",
+        "peekOfCode": "s1 = pygame.transform.scale(pygame.image.load('res/villager.png'), (50,100))\ninter = pygame.transform.scale(pygame.image.load('res/inter.png'), (100,50))\ndef load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\nclass Trader(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()",
+        "detail": "game.environment.trader",
+        "documentation": {}
+    },
+    {
+        "label": "inter",
+        "kind": 5,
+        "importPath": "game.environment.trader",
+        "description": "game.environment.trader",
+        "peekOfCode": "inter = pygame.transform.scale(pygame.image.load('res/inter.png'), (100,50))\ndef load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\nclass Trader(pygame.sprite.Sprite):\n    def __init__(self,pos,s,w) -> None:\n        super().__init__()\n        self.image = s1 \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos",
+        "detail": "game.environment.trader",
+        "documentation": {}
+    },
+    {
+        "label": "Wall",
+        "kind": 6,
+        "importPath": "game.environment.wall",
+        "description": "game.environment.wall",
+        "peekOfCode": "class Wall(pygame.sprite.Sprite):\n    def __init__(self,pos,color) -> None:\n        super().__init__()\n        self.image = pygame.Surface((50, 50)).convert_alpha()\n        self.image.fill(color)\n        if color == WHITE:\n            self.image.set_alpha(0)\n        self.color = color  \n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos",
+        "detail": "game.environment.wall",
+        "documentation": {}
+    },
+    {
+        "label": "Finder",
+        "kind": 6,
+        "importPath": "game.other.astar",
+        "description": "game.other.astar",
+        "peekOfCode": "class Finder:\n    def __init__(self, start, end,walls) -> None:\n        logging.debug(\"SLAVE STARTED PATHFINDING\")\n        self.path = None \n        self.start = start\n        self.end = end \n        self.walls = walls\n    def run(self, r):\n        if not r: \n            while True:",
+        "detail": "game.other.astar",
+        "documentation": {}
+    },
+    {
+        "label": "heuristic",
+        "kind": 2,
+        "importPath": "game.other.astar",
+        "description": "game.other.astar",
+        "peekOfCode": "def heuristic(node, goal):\n    x1, y1 = node\n    x2, y2 = goal\n    return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5\nclass Finder:\n    def __init__(self, start, end,walls) -> None:\n        logging.debug(\"SLAVE STARTED PATHFINDING\")\n        self.path = None \n        self.start = start\n        self.end = end ",
+        "detail": "game.other.astar",
+        "documentation": {}
+    },
+    {
+        "label": "astar",
+        "kind": 2,
+        "importPath": "game.other.astar",
+        "description": "game.other.astar",
+        "peekOfCode": "def astar(start_pos, end_pos, obstacles: pygame.sprite.Group):\n    open_set = []\n    heapq.heappush(open_set, (0, start_pos))\n    came_from = {}\n    # cost and movement dictionaries\n    g_score = {obstacle.rect.topleft: float('inf') for obstacle in obstacles}\n    g_score[start_pos] = 0\n    while len(open_set) > 0:\n        current = heapq.heappop(open_set)[1]\n        if current == end_pos:",
+        "detail": "game.other.astar",
+        "documentation": {}
+    },
+    {
+        "label": "WIDTH",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "WIDTH = 800\nHEIGHT = 800\n# 400, 325\nFPS = 60\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "HEIGHT",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "HEIGHT = 800\n# 400, 325\nFPS = 60\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "FPS = 60\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "WHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "BLACK",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "BLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "RED",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "RED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "GREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "BLUE",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "BLUE = (0, 0, 255)\nCELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "CELL_SIZE = 50\nCELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "CELL_SIZE = 50\nCELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "CELLS_X",
+        "kind": 5,
+        "importPath": "game.other.cons",
+        "description": "game.other.cons",
+        "peekOfCode": "CELLS_X = 150\nCELLS_Y =150",
+        "detail": "game.other.cons",
+        "documentation": {}
+    },
+    {
+        "label": "Utilz",
+        "kind": 6,
+        "importPath": "game.other.utilz",
+        "description": "game.other.utilz",
+        "peekOfCode": "class Utilz:\n    @staticmethod\n    def interpolate_color(start_color, end_color, progress, contrast):\n        r = int((start_color[0] + (end_color[0] - start_color[0]) * progress) * contrast)\n        g = int((start_color[1] + (end_color[1] - start_color[1]) * progress) * contrast)\n        b = int((start_color[2] + (end_color[2] - start_color[2]) * progress) * contrast)\n        return (min(255, r), min(255, g), min(255, b))\n    @staticmethod\n    def generate_labyrinth(CELLS_X, CELLS_Y, start = (191, 38, 38),end = (216, 186, 70),gr = None):\n        # мій щоденник:",
+        "detail": "game.other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "load_js",
+        "kind": 2,
+        "importPath": "game.other.utilz",
+        "description": "game.other.utilz",
+        "peekOfCode": "def load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\nsw:list = load_js(\"swords.json\")\npt:list  = load_js(\"potions.json\")\npz:list  = load_js(\"pets.json\")\nar:list  = load_js(\"artifacts.json\")\nall_items =sw \nall_items.extend(pt)\nall_items.extend(ar)",
+        "detail": "game.other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "sw:list",
+        "kind": 5,
+        "importPath": "game.other.utilz",
+        "description": "game.other.utilz",
+        "peekOfCode": "sw:list = load_js(\"swords.json\")\npt:list  = load_js(\"potions.json\")\npz:list  = load_js(\"pets.json\")\nar:list  = load_js(\"artifacts.json\")\nall_items =sw \nall_items.extend(pt)\nall_items.extend(ar)\nall_items.extend(pz)\nclass Utilz:\n    @staticmethod",
+        "detail": "game.other.utilz",
+        "documentation": {}
+    },
+    {
+        "label": "Hitbox",
+        "kind": 6,
+        "importPath": "game.player.player",
+        "description": "game.player.player",
+        "peekOfCode": "class Hitbox(pygame.sprite.Sprite):\n    def __init__(self,pos,player) -> None:\n        super().__init__()\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(RED)\n        self.rect = self.image.get_rect()\n        self.rect.center = pos \n        self.player = player\n    def coll(self,en):\n        hits = pygame.sprite.spritecollide(self, en, False) ",
+        "detail": "game.player.player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "game.player.player",
+        "description": "game.player.player",
+        "peekOfCode": "class Player(pygame.sprite.Sprite):\n    def __init__(self,walls,swap_callback,pet_group:pygame.sprite.Group,shadow,traders):\n        pygame.sprite.Sprite.__init__(self)\n        # self.image = pygame.Surface((50, 50))\n        # self.image.fill(GREEN)\n        self.image = pygame.image.load(\"res/cube.png\").convert_alpha()\n        self.rect = self.image.get_rect()\n        # set player to the center of the screen but rounded to the nearest 50\n        self.rect.center =  Utilz.place_spawn_point(walls)\n        self.walls = walls",
+        "detail": "game.player.player",
+        "documentation": {}
+    },
+    {
+        "label": "load_js",
+        "kind": 2,
+        "importPath": "game.player.player",
+        "description": "game.player.player",
+        "peekOfCode": "def load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\npz:list = load_js(\"pets.json\")\nclass Hitbox(pygame.sprite.Sprite):\n    def __init__(self,pos,player) -> None:\n        super().__init__()\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(RED)\n        self.rect = self.image.get_rect()",
+        "detail": "game.player.player",
+        "documentation": {}
+    },
+    {
+        "label": "pz:list",
+        "kind": 5,
+        "importPath": "game.player.player",
+        "description": "game.player.player",
+        "peekOfCode": "pz:list = load_js(\"pets.json\")\nclass Hitbox(pygame.sprite.Sprite):\n    def __init__(self,pos,player) -> None:\n        super().__init__()\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(RED)\n        self.rect = self.image.get_rect()\n        self.rect.center = pos \n        self.player = player\n    def coll(self,en):",
+        "detail": "game.player.player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayersShadow",
+        "kind": 6,
+        "importPath": "game.player.shadow",
+        "description": "game.player.shadow",
+        "peekOfCode": "class PlayersShadow(pygame.sprite.Sprite):\n    def __init__(self, player, walls, grid, d):\n        super().__init__()\n        self.image = pygame.image.load(\"res/cube.png\").convert_alpha()\n        self.image.fill((255, 255, 255, 128), None, pygame.BLEND_RGBA_MULT)\n        self.rect = self.image.get_rect(center=player.rect.center)\n        self.move_speeds = [1.8, 2.4, 4, 0]\n        self.speed_type = 3\n        self.player = player\n        self.walls = walls",
+        "detail": "game.player.shadow",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "game.stuff.astar",
+        "description": "game.stuff.astar",
+        "peekOfCode": "class Node:\n    def __init__(self, position, parent=None):\n        self.position = position\n        self.parent = parent\n        self.g = 0  # Cost from start node to current node\n        self.h = 0  # Heuristic cost from current node to end node\n        self.f = 0  # Total cost\n    def __lt__(self, other):\n        return self.f < other.f\ndef astar_search(start_pos, end_pos, obstacles):",
+        "detail": "game.stuff.astar",
+        "documentation": {}
+    },
+    {
+        "label": "astar_search",
+        "kind": 2,
+        "importPath": "game.stuff.astar",
+        "description": "game.stuff.astar",
+        "peekOfCode": "def astar_search(start_pos, end_pos, obstacles):\n    open_list = []\n    closed_set = set()\n    start_node = Node(start_pos)\n    end_node = Node(end_pos)\n    open_list.append(start_node)\n    a = 0\n    while open_list:\n        a += 1\n        current_node = heapq.heappop(open_list)",
+        "detail": "game.stuff.astar",
+        "documentation": {}
+    },
+    {
+        "label": "get_neighbors",
+        "kind": 2,
+        "importPath": "game.stuff.astar",
+        "description": "game.stuff.astar",
+        "peekOfCode": "def get_neighbors(node, obstacles):\n    neighbors = []\n    positions = [(1, 0), (-1, 0), (0, 1), (0, -1)]  # Adjacent positions\n    for position in positions:\n        neighbor_pos = (node.position[0] + position[0], node.position[1] + position[1])\n        if not is_valid_position(neighbor_pos, obstacles):\n            continue\n        neighbor_node = Node(neighbor_pos, parent=node)\n        neighbors.append(neighbor_node)\n    return neighbors",
+        "detail": "game.stuff.astar",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_position",
+        "kind": 2,
+        "importPath": "game.stuff.astar",
+        "description": "game.stuff.astar",
+        "peekOfCode": "def is_valid_position(position, obstacles):\n    for obstacle in obstacles:\n        if pygame.Rect(obstacle).colliderect(pygame.Rect(position[0] - 25, position[1] - 25, 50, 50)):\n            return False\n    return True\ndef calculate_heuristic(node, end_node):\n    return abs(node.position[0] - end_node.position[0]) + abs(node.position[1] - end_node.position[1])",
+        "detail": "game.stuff.astar",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_heuristic",
+        "kind": 2,
+        "importPath": "game.stuff.astar",
+        "description": "game.stuff.astar",
+        "peekOfCode": "def calculate_heuristic(node, end_node):\n    return abs(node.position[0] - end_node.position[0]) + abs(node.position[1] - end_node.position[1])",
+        "detail": "game.stuff.astar",
+        "documentation": {}
+    },
+    {
+        "label": "Sprite",
+        "kind": 6,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "class Sprite(pygame.sprite.Sprite):\n    def __init__(self, pos):\n        super().__init__()\n        self.image = pygame.Surface((CELL_SIZE, CELL_SIZE))\n        self.image.fill(GREEN)\n        self.rect = self.image.get_rect()\n        self.rect.topleft = pos\n    def move(self, dx, dy):\n        self.rect.move_ip(dx, dy)\n    def update(self):",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "heuristic",
+        "kind": 2,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "def heuristic(node, goal):\n    x1, y1 = node\n    x2, y2 = goal\n    return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5\n# A* algorithm\ndef astar():\n    # Initialize the open and closed sets\n    open_set = []\n    heapq.heappush(open_set, (0, start_pos))\n    came_from = {}",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "astar",
+        "kind": 2,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "def astar():\n    # Initialize the open and closed sets\n    open_set = []\n    heapq.heappush(open_set, (0, start_pos))\n    came_from = {}\n    # Initialize the cost and movement dictionaries\n    g_score = {tuple(obstacle.topleft): float('inf') for obstacle in obstacles}\n    g_score[start_pos] = 0\n    # Start the A* algorithm\n    while len(open_set) > 0:",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "draw",
+        "kind": 2,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "def draw(path):\n    screen.fill(BLACK)\n    for obstacle in obstacles:\n        pygame.draw.rect(screen, RED, obstacle)\n    pygame.draw.rect(screen, BLUE, (end_pos[0], end_pos[1], CELL_SIZE, CELL_SIZE))\n    all_sprites.update()\n    all_sprites.draw(screen)\n    if path:\n        for p in path: \n            pygame.draw.circle(screen, WHITE, p, 20)",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "WIDTH",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "WIDTH = 800\nHEIGHT = 600\n# Define colors\nBLACK = (0, 0, 0)\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "HEIGHT",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "HEIGHT = 600\n# Define colors\nBLACK = (0, 0, 0)\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "BLACK",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "BLACK = (0, 0, 0)\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\nclock = pygame.time.Clock()\n# Define the size of each cell",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "WHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\nclock = pygame.time.Clock()\n# Define the size of each cell\nCELL_SIZE = 50",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "GREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\nclock = pygame.time.Clock()\n# Define the size of each cell\nCELL_SIZE = 50\n# Create the start and end positions",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "RED",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "RED = (255, 0, 0)\nBLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\nclock = pygame.time.Clock()\n# Define the size of each cell\nCELL_SIZE = 50\n# Create the start and end positions\nstart_pos = (2 * CELL_SIZE, 2 * CELL_SIZE)",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "BLUE",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "BLUE = (0, 0, 255)\n# Initialize Pygame\npygame.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\nclock = pygame.time.Clock()\n# Define the size of each cell\nCELL_SIZE = 50\n# Create the start and end positions\nstart_pos = (2 * CELL_SIZE, 2 * CELL_SIZE)\nend_pos = (WIDTH - 3 * CELL_SIZE, HEIGHT - 3 * CELL_SIZE)",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "screen = pygame.display.set_mode((WIDTH, HEIGHT))\nclock = pygame.time.Clock()\n# Define the size of each cell\nCELL_SIZE = 50\n# Create the start and end positions\nstart_pos = (2 * CELL_SIZE, 2 * CELL_SIZE)\nend_pos = (WIDTH - 3 * CELL_SIZE, HEIGHT - 3 * CELL_SIZE)\n# Add obstacles\nobstacles = [\n    pygame.Rect(4 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "clock",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "clock = pygame.time.Clock()\n# Define the size of each cell\nCELL_SIZE = 50\n# Create the start and end positions\nstart_pos = (2 * CELL_SIZE, 2 * CELL_SIZE)\nend_pos = (WIDTH - 3 * CELL_SIZE, HEIGHT - 3 * CELL_SIZE)\n# Add obstacles\nobstacles = [\n    pygame.Rect(4 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(5 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "CELL_SIZE = 50\n# Create the start and end positions\nstart_pos = (2 * CELL_SIZE, 2 * CELL_SIZE)\nend_pos = (WIDTH - 3 * CELL_SIZE, HEIGHT - 3 * CELL_SIZE)\n# Add obstacles\nobstacles = [\n    pygame.Rect(4 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(5 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(6 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(7 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "start_pos",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "start_pos = (2 * CELL_SIZE, 2 * CELL_SIZE)\nend_pos = (WIDTH - 3 * CELL_SIZE, HEIGHT - 3 * CELL_SIZE)\n# Add obstacles\nobstacles = [\n    pygame.Rect(4 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(5 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(6 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(7 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(8 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(9 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE)",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "end_pos",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "end_pos = (WIDTH - 3 * CELL_SIZE, HEIGHT - 3 * CELL_SIZE)\n# Add obstacles\nobstacles = [\n    pygame.Rect(4 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(5 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(6 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(7 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(8 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(9 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE)\n]",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "obstacles",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "obstacles = [\n    pygame.Rect(4 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(5 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(6 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(7 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(8 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE),\n    pygame.Rect(9 * CELL_SIZE, 4 * CELL_SIZE, CELL_SIZE, CELL_SIZE)\n]\n# Create the sprite\nclass Sprite(pygame.sprite.Sprite):",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "all_sprites",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "all_sprites = pygame.sprite.Group()\nsprite = Sprite(start_pos)\nall_sprites.add(sprite)\n# Heuristic function (Euclidean distance)\ndef heuristic(node, goal):\n    x1, y1 = node\n    x2, y2 = goal\n    return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5\n# A* algorithm\ndef astar():",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "sprite",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "sprite = Sprite(start_pos)\nall_sprites.add(sprite)\n# Heuristic function (Euclidean distance)\ndef heuristic(node, goal):\n    x1, y1 = node\n    x2, y2 = goal\n    return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5\n# A* algorithm\ndef astar():\n    # Initialize the open and closed sets",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "running",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "running = True\npath = astar()\nwhile running:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            running = False\n    if path:\n        # Move the sprite along the path\n        print(path)\n        position = path.pop(0)",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "game.stuff.starwithouta",
+        "description": "game.stuff.starwithouta",
+        "peekOfCode": "path = astar()\nwhile running:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            running = False\n    if path:\n        # Move the sprite along the path\n        print(path)\n        position = path.pop(0)\n        dx = position[0] - sprite.rect.x",
+        "detail": "game.stuff.starwithouta",
+        "documentation": {}
+    },
+    {
+        "label": "setup_webhook_subscription",
+        "kind": 2,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "def setup_webhook_subscription():\n    try:\n       request = youtube.liveChatMessages().insert(\n           part='snippet',\n           body={\n               'snippet': {\n                   'liveChatId': live_chat_id,\n                   'type': 'textMessageEvent'\n               }\n           }",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "api_key = os.environ.get(\"KEY\")\napi_service_name = 'youtube'\napi_version = 'v3'\ncredentials = service_account.Credentials.from_service_account_file(\n    'retube-game-a3a6720e6302.json')\nyoutube = build(api_service_name, api_version, credentials=credentials)\nlive_chat_id = 'KicKGFVDV0RJYmhKbmUtazUybnVrQWtqOENIZxILc25YU1RvcHl1dkE'\n# def listen_to_chat():\n#     messages = []\n#     while True:",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "api_service_name",
+        "kind": 5,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "api_service_name = 'youtube'\napi_version = 'v3'\ncredentials = service_account.Credentials.from_service_account_file(\n    'retube-game-a3a6720e6302.json')\nyoutube = build(api_service_name, api_version, credentials=credentials)\nlive_chat_id = 'KicKGFVDV0RJYmhKbmUtazUybnVrQWtqOENIZxILc25YU1RvcHl1dkE'\n# def listen_to_chat():\n#     messages = []\n#     while True:\n#         try:",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "api_version",
+        "kind": 5,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "api_version = 'v3'\ncredentials = service_account.Credentials.from_service_account_file(\n    'retube-game-a3a6720e6302.json')\nyoutube = build(api_service_name, api_version, credentials=credentials)\nlive_chat_id = 'KicKGFVDV0RJYmhKbmUtazUybnVrQWtqOENIZxILc25YU1RvcHl1dkE'\n# def listen_to_chat():\n#     messages = []\n#     while True:\n#         try:\n#             request = youtube.liveChatMessages().list(",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "kind": 5,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "credentials = service_account.Credentials.from_service_account_file(\n    'retube-game-a3a6720e6302.json')\nyoutube = build(api_service_name, api_version, credentials=credentials)\nlive_chat_id = 'KicKGFVDV0RJYmhKbmUtazUybnVrQWtqOENIZxILc25YU1RvcHl1dkE'\n# def listen_to_chat():\n#     messages = []\n#     while True:\n#         try:\n#             request = youtube.liveChatMessages().list(\n#                 liveChatId=live_chat_id,",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "youtube",
+        "kind": 5,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "youtube = build(api_service_name, api_version, credentials=credentials)\nlive_chat_id = 'KicKGFVDV0RJYmhKbmUtazUybnVrQWtqOENIZxILc25YU1RvcHl1dkE'\n# def listen_to_chat():\n#     messages = []\n#     while True:\n#         try:\n#             request = youtube.liveChatMessages().list(\n#                 liveChatId=live_chat_id,\n#                 part='snippet,authorDetails'\n#             )",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "live_chat_id",
+        "kind": 5,
+        "importPath": "game.stuff.test",
+        "description": "game.stuff.test",
+        "peekOfCode": "live_chat_id = 'KicKGFVDV0RJYmhKbmUtazUybnVrQWtqOENIZxILc25YU1RvcHl1dkE'\n# def listen_to_chat():\n#     messages = []\n#     while True:\n#         try:\n#             request = youtube.liveChatMessages().list(\n#                 liveChatId=live_chat_id,\n#                 part='snippet,authorDetails'\n#             )\n#             response = request.execute()",
+        "detail": "game.stuff.test",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "class Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(GREEN)\n        self.rect = self.image.get_rect()\n        self.rect.center = (WIDTH / 2, HEIGHT / 2)\n    def update(self):\n        if self.rect.left > WIDTH:\n            self.rect.right = 0",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "similar",
+        "kind": 2,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "def similar(a, b):\n    return SequenceMatcher(None, a, b).ratio()\n# Pygame initialization\nWIDTH = 800\nHEIGHT = 650\nFPS = 30\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "start_bot",
+        "kind": 2,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "def start_bot():\n    print(\"Bot started\")\n    loop = asyncio.new_event_loop()\n    asyncio.set_event_loop(loop)\n    loop.run_until_complete(dp.start_polling())\n# Pygame initialization\npygame.init()\npygame.mixer.init()\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Subscriber, game By RemoteAccess01 <3\")",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "API_TOKEN",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "API_TOKEN = os.getenv('KEY')\ndef similar(a, b):\n    return SequenceMatcher(None, a, b).ratio()\n# Pygame initialization\nWIDTH = 800\nHEIGHT = 650\nFPS = 30\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "WIDTH",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "WIDTH = 800\nHEIGHT = 650\nFPS = 30\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "HEIGHT",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "HEIGHT = 650\nFPS = 30\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "FPS = 30\nWHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "WHITE = (255, 255, 255)\nBLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(GREEN)",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "BLACK",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "BLACK = (0, 0, 0)\nRED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(GREEN)\n        self.rect = self.image.get_rect()",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "RED",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "RED = (255, 0, 0)\nGREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(GREEN)\n        self.rect = self.image.get_rect()\n        self.rect.center = (WIDTH / 2, HEIGHT / 2)",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "GREEN = (0, 255, 0)\nBLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(GREEN)\n        self.rect = self.image.get_rect()\n        self.rect.center = (WIDTH / 2, HEIGHT / 2)\n    def update(self):",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "BLUE",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "BLUE = (0, 0, 255)\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        pygame.sprite.Sprite.__init__(self)\n        self.image = pygame.Surface((50, 50))\n        self.image.fill(GREEN)\n        self.rect = self.image.get_rect()\n        self.rect.center = (WIDTH / 2, HEIGHT / 2)\n    def update(self):\n        if self.rect.left > WIDTH:",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "bot = Bot(token=API_TOKEN)\ndp = Dispatcher(bot)\n# Define the command handler\n@dp.message_handler(commands=['up'])\nasync def handle_up_command(message: types.Message):\n    print(\"Received /up command\")\n    player.rect.y -= 10\n# Start the bot\ndef start_bot():\n    print(\"Bot started\")",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "dp",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "dp = Dispatcher(bot)\n# Define the command handler\n@dp.message_handler(commands=['up'])\nasync def handle_up_command(message: types.Message):\n    print(\"Received /up command\")\n    player.rect.y -= 10\n# Start the bot\ndef start_bot():\n    print(\"Bot started\")\n    loop = asyncio.new_event_loop()",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "screen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Subscriber, game By RemoteAccess01 <3\")\nclock = pygame.time.Clock()\nall_sprites = pygame.sprite.Group()\nplayer = Player()\nall_sprites.add(player)\n# Start the bot in a separate thread\nbot_thread = threading.Thread(target=start_bot, daemon=True)\nbot_thread.start()\nrunning = True",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "clock",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "clock = pygame.time.Clock()\nall_sprites = pygame.sprite.Group()\nplayer = Player()\nall_sprites.add(player)\n# Start the bot in a separate thread\nbot_thread = threading.Thread(target=start_bot, daemon=True)\nbot_thread.start()\nrunning = True\nwhile running:\n    clock.tick(FPS)",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "all_sprites",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "all_sprites = pygame.sprite.Group()\nplayer = Player()\nall_sprites.add(player)\n# Start the bot in a separate thread\nbot_thread = threading.Thread(target=start_bot, daemon=True)\nbot_thread.start()\nrunning = True\nwhile running:\n    clock.tick(FPS)\n    # Process Pygame events",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "player = Player()\nall_sprites.add(player)\n# Start the bot in a separate thread\nbot_thread = threading.Thread(target=start_bot, daemon=True)\nbot_thread.start()\nrunning = True\nwhile running:\n    clock.tick(FPS)\n    # Process Pygame events\n    for event in pygame.event.get():",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "bot_thread",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "bot_thread = threading.Thread(target=start_bot, daemon=True)\nbot_thread.start()\nrunning = True\nwhile running:\n    clock.tick(FPS)\n    # Process Pygame events\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            running = False\n    # Update game objects",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "running",
+        "kind": 5,
+        "importPath": "game.stuff.tg-bot",
+        "description": "game.stuff.tg-bot",
+        "peekOfCode": "running = True\nwhile running:\n    clock.tick(FPS)\n    # Process Pygame events\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            running = False\n    # Update game objects\n    all_sprites.update()\n    # Rendering",
+        "detail": "game.stuff.tg-bot",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "class Player(pygame.sprite.Sprite):\n    def __init__(self):\n        super().__init__()\n        self.image = pygame.Surface((50, 50))  # Replace with your actual player image\n        self.rect = self.image.get_rect()\n        self.rect.x = 375  # Initial x-position of the player\n        self.rect.y = 275  # Initial y-position of the player\n    def update(self, keys):\n        if keys[K_LEFT]:\n            self.rect.x -= 5  # Adjust the movement speed as needed",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "similar",
+        "kind": 2,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "def similar(a, b):\n    return SequenceMatcher(None, a, b).ratio()\n# Step 2: Create the Player sprite class\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        super().__init__()\n        self.image = pygame.Surface((50, 50))  # Replace with your actual player image\n        self.rect = self.image.get_rect()\n        self.rect.x = 375  # Initial x-position of the player\n        self.rect.y = 275  # Initial y-position of the player",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "move_left",
+        "kind": 2,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "def move_left(message):\n    player.update({K_LEFT: True})  # Update the player's movement state\n    print(\"Received /left command\")\n# Create the player sprite\nplayer = Player()\n# Start the telebot\ndef start_bot():\n    bot.polling()\nbot_thread = threading.Thread(target=start_bot)\nbot_thread.start()",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "start_bot",
+        "kind": 2,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "def start_bot():\n    bot.polling()\nbot_thread = threading.Thread(target=start_bot)\nbot_thread.start()\n# Game loop\nwhile True:\n    # Handle Pygame events\n    for event in pygame.event.get():\n        if event.type == QUIT:\n            pygame.quit()",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "API_TOKEN",
+        "kind": 5,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "API_TOKEN = os.getenv('KEY')\n# Step 1: Set up the Pygame environment\npygame.init()\nscreen = pygame.display.set_mode((800, 600))\ndef similar(a, b):\n    return SequenceMatcher(None, a, b).ratio()\n# Step 2: Create the Player sprite class\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        super().__init__()",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "screen = pygame.display.set_mode((800, 600))\ndef similar(a, b):\n    return SequenceMatcher(None, a, b).ratio()\n# Step 2: Create the Player sprite class\nclass Player(pygame.sprite.Sprite):\n    def __init__(self):\n        super().__init__()\n        self.image = pygame.Surface((50, 50))  # Replace with your actual player image\n        self.rect = self.image.get_rect()\n        self.rect.x = 375  # Initial x-position of the player",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "bot = telebot.TeleBot(API_TOKEN)\n@bot.message_handler(commands=['left'])\ndef move_left(message):\n    player.update({K_LEFT: True})  # Update the player's movement state\n    print(\"Received /left command\")\n# Create the player sprite\nplayer = Player()\n# Start the telebot\ndef start_bot():\n    bot.polling()",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 5,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "player = Player()\n# Start the telebot\ndef start_bot():\n    bot.polling()\nbot_thread = threading.Thread(target=start_bot)\nbot_thread.start()\n# Game loop\nwhile True:\n    # Handle Pygame events\n    for event in pygame.event.get():",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "bot_thread",
+        "kind": 5,
+        "importPath": "game.stuff.tisto",
+        "description": "game.stuff.tisto",
+        "peekOfCode": "bot_thread = threading.Thread(target=start_bot)\nbot_thread.start()\n# Game loop\nwhile True:\n    # Handle Pygame events\n    for event in pygame.event.get():\n        if event.type == QUIT:\n            pygame.quit()\n            exit()\n    # Update player position",
+        "detail": "game.stuff.tisto",
+        "documentation": {}
+    },
+    {
+        "label": "BotManager",
+        "kind": 6,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "class BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1\n        @self.bot.message_handler(commands=[\"start\"])\n        def handle_start(message):",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "load_js",
+        "kind": 2,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "def load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\nsw = load_js(\"swords.json\")\nar = load_js(\"artifacts.json\")\npt = load_js(\"potions.json\")\npz = load_js(\"pets.json\")\nall_things: list = sw\nall_things.extend(ar)\nall_things.extend(pt)",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "sw",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "sw = load_js(\"swords.json\")\nar = load_js(\"artifacts.json\")\npt = load_js(\"potions.json\")\npz = load_js(\"pets.json\")\nall_things: list = sw\nall_things.extend(ar)\nall_things.extend(pt)\nall_things.extend(pz)\nload_dotenv()\nattack_sounds = [",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "ar",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "ar = load_js(\"artifacts.json\")\npt = load_js(\"potions.json\")\npz = load_js(\"pets.json\")\nall_things: list = sw\nall_things.extend(ar)\nall_things.extend(pt)\nall_things.extend(pz)\nload_dotenv()\nattack_sounds = [\n    pygame.mixer.Sound(os.path.join(\"res/music/attack\", file))",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "pt",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "pt = load_js(\"potions.json\")\npz = load_js(\"pets.json\")\nall_things: list = sw\nall_things.extend(ar)\nall_things.extend(pt)\nall_things.extend(pz)\nload_dotenv()\nattack_sounds = [\n    pygame.mixer.Sound(os.path.join(\"res/music/attack\", file))\n    for file in os.listdir(\"res/music/attack\")",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "pz",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "pz = load_js(\"pets.json\")\nall_things: list = sw\nall_things.extend(ar)\nall_things.extend(pt)\nall_things.extend(pz)\nload_dotenv()\nattack_sounds = [\n    pygame.mixer.Sound(os.path.join(\"res/music/attack\", file))\n    for file in os.listdir(\"res/music/attack\")\n    if file.endswith((\".mp3\", \".wav\", \".ogg\", \".flac\"))",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "attack_sounds",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "attack_sounds = [\n    pygame.mixer.Sound(os.path.join(\"res/music/attack\", file))\n    for file in os.listdir(\"res/music/attack\")\n    if file.endswith((\".mp3\", \".wav\", \".ogg\", \".flac\"))\n]\npotion_sound = pygame.mixer.Sound(\"res/music/loot/potion.ogg\")\npurchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "potion_sound",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "potion_sound = pygame.mixer.Sound(\"res/music/loot/potion.ogg\")\npurchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "purchase_sound",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "purchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1\n        @self.bot.message_handler(commands=[\"start\"])",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 6,
+        "importPath": "game.tg.database",
+        "description": "game.tg.database",
+        "peekOfCode": "class db:\n    @staticmethod\n    def connect_database():\n        connection = sqlite3.connect('database.db')\n        cursor = connection.cursor()\n        cursor.execute(\"CREATE TABLE IF NOT EXISTS players (tg_id INTEGER PRIMARY KEY, move_count INTEGER DEFAULT 0 NOT NULL,is_banned INTEGER DEFAULT 0 NOT NULL,tg_name TEXT DEFAULT 'Unknown')\")\n        connection.commit()\n        return connection, cursor\n    @staticmethod\n    def create_player(tg_id, tg_name):",
+        "detail": "game.tg.database",
+        "documentation": {}
+    },
+    {
+        "label": "load_js",
+        "kind": 2,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "def load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\ndef display_hearts(player:Player, screen):\n    full_hearts = player.health // 10\n    half_heart_remainder = (player.health % 10) // 5\n    for i in range(full_hearts):\n        screen.blit(heart, (i * 36, 70)) \n    if half_heart_remainder:\n        screen.blit(half_heart, (full_hearts * 36, 70))",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "display_hearts",
+        "kind": 2,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "def display_hearts(player:Player, screen):\n    full_hearts = player.health // 10\n    half_heart_remainder = (player.health % 10) // 5\n    for i in range(full_hearts):\n        screen.blit(heart, (i * 36, 70)) \n    if half_heart_remainder:\n        screen.blit(half_heart, (full_hearts * 36, 70))\n    empty_hearts = 10 - full_hearts - int(bool(half_heart_remainder))\n    for i in range(empty_hearts):\n        screen.blit(no_heart, ((full_hearts + int(bool(half_heart_remainder)) + i) * 36, 70))",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "def main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()\n    walls = pygame.sprite.Group()\n    exits = Utilz.get_exits(CELLS_X, CELLS_Y)\n    for exit in exits:\n        exit.kill()\n        walls.add(exit)\n    grid, walls,exits = Utilz.generate_labyrinth(CELLS_X, CELLS_Y,gr=walls)",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "intro",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "intro = pygame.transform.scale(pygame.image.load(\"res/intro.png\"), (WIDTH,HEIGHT))\npygame.init()\npygame.mixer_music.load(\"res/music/1/music.mp3\")\npygame.mixer_music.play(-1)\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Labyrinth Legends - RNT DEVELOPMENT\")\nclock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nimport os",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "screen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Labyrinth Legends - RNT DEVELOPMENT\")\nclock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nimport os\nfrom dotenv import load_dotenv\nimport random\nimport sys\nimport threading",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "clock",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "clock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nimport os\nfrom dotenv import load_dotenv\nimport random\nimport sys\nimport threading\nfrom player.player import Player\nfrom player.shadow import PlayersShadow",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "API_TOKEN",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "API_TOKEN = os.getenv('KEY')\ncurrent_world = 1\ndef load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\ndef display_hearts(player:Player, screen):\n    full_hearts = player.health // 10\n    half_heart_remainder = (player.health % 10) // 5\n    for i in range(full_hearts):\n        screen.blit(heart, (i * 36, 70)) ",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "current_world",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "current_world = 1\ndef load_js(fil):\n    with open(fil, \"r\") as f:\n        return json.load(f)\ndef display_hearts(player:Player, screen):\n    full_hearts = player.health // 10\n    half_heart_remainder = (player.health % 10) // 5\n    for i in range(full_hearts):\n        screen.blit(heart, (i * 36, 70)) \n    if half_heart_remainder:",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "sw:list",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "sw:list = load_js(\"swords.json\")\npt:list  = load_js(\"potions.json\")\npz:list  = load_js(\"pets.json\")\nar:list  = load_js(\"artifacts.json\")\nall_items =sw \nall_items.extend(pt)\nall_items.extend(ar)\nall_items.extend(pz)\nloaded_srfs = {f[\"uuid\"]: pygame.transform.scale(pygame.image.load(f[\"image\"]), (75,75)) for f in all_items}\nloaded_pots = {f[\"uuid\"]: pygame.transform.scale(pygame.image.load(f[\"image\"]), (57,57)) for f in pt}",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "loaded_srfs",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "loaded_srfs = {f[\"uuid\"]: pygame.transform.scale(pygame.image.load(f[\"image\"]), (75,75)) for f in all_items}\nloaded_pots = {f[\"uuid\"]: pygame.transform.scale(pygame.image.load(f[\"image\"]), (57,57)) for f in pt}\nsword_ui = pygame.transform.scale(pygame.image.load(\"res/sword_ui.png\"), (150,150))\nartifact_ui = pygame.transform.scale(pygame.image.load(\"res/artifact_ui.png\"), (150,150))\nhalf_heart = pygame.transform.scale(pygame.image.load(\"res/heart-half.png\"), (32,32))\nheart = pygame.transform.scale(pygame.image.load(\"res/heart.png\"), (32,32))\nno_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "loaded_pots",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "loaded_pots = {f[\"uuid\"]: pygame.transform.scale(pygame.image.load(f[\"image\"]), (57,57)) for f in pt}\nsword_ui = pygame.transform.scale(pygame.image.load(\"res/sword_ui.png\"), (150,150))\nartifact_ui = pygame.transform.scale(pygame.image.load(\"res/artifact_ui.png\"), (150,150))\nhalf_heart = pygame.transform.scale(pygame.image.load(\"res/heart-half.png\"), (32,32))\nheart = pygame.transform.scale(pygame.image.load(\"res/heart.png\"), (32,32))\nno_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "sword_ui",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "sword_ui = pygame.transform.scale(pygame.image.load(\"res/sword_ui.png\"), (150,150))\nartifact_ui = pygame.transform.scale(pygame.image.load(\"res/artifact_ui.png\"), (150,150))\nhalf_heart = pygame.transform.scale(pygame.image.load(\"res/heart-half.png\"), (32,32))\nheart = pygame.transform.scale(pygame.image.load(\"res/heart.png\"), (32,32))\nno_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "artifact_ui",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "artifact_ui = pygame.transform.scale(pygame.image.load(\"res/artifact_ui.png\"), (150,150))\nhalf_heart = pygame.transform.scale(pygame.image.load(\"res/heart-half.png\"), (32,32))\nheart = pygame.transform.scale(pygame.image.load(\"res/heart.png\"), (32,32))\nno_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "half_heart",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "half_heart = pygame.transform.scale(pygame.image.load(\"res/heart-half.png\"), (32,32))\nheart = pygame.transform.scale(pygame.image.load(\"res/heart.png\"), (32,32))\nno_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "heart",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "heart = pygame.transform.scale(pygame.image.load(\"res/heart.png\"), (32,32))\nno_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "no_heart",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "no_heart = pygame.transform.scale(pygame.image.load(\"res/no-heart.png\"), (32,32))\nstar = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()\n    walls = pygame.sprite.Group()",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "star",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "star = pygame.transform.scale(pygame.image.load(\"res/star.png\"), (64,64))\nwon = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()\n    walls = pygame.sprite.Group()\n    exits = Utilz.get_exits(CELLS_X, CELLS_Y)",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "won",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "won = pygame.transform.scale(pygame.image.load(\"res/won.png\"), (WIDTH,HEIGHT))\ndied = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()\n    walls = pygame.sprite.Group()\n    exits = Utilz.get_exits(CELLS_X, CELLS_Y)\n    for exit in exits:",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "died",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "died = pygame.transform.scale(pygame.image.load(\"res/died.png\"), (WIDTH,HEIGHT))\nbackpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()\n    walls = pygame.sprite.Group()\n    exits = Utilz.get_exits(CELLS_X, CELLS_Y)\n    for exit in exits:\n        exit.kill()",
+        "detail": "game.main",
+        "documentation": {}
+    },
+    {
+        "label": "backpack",
+        "kind": 5,
+        "importPath": "game.main",
+        "description": "game.main",
+        "peekOfCode": "backpack = pygame.transform.scale(pygame.image.load(\"res/backpack.png\"), (270,540))\ndef main():\n    global current_world\n    current_world = 1\n    all_sprites = pygame.sprite.Group()\n    walls = pygame.sprite.Group()\n    exits = Utilz.get_exits(CELLS_X, CELLS_Y)\n    for exit in exits:\n        exit.kill()\n        walls.add(exit)",
+        "detail": "game.main",
+        "documentation": {}
+    }
+]

@@ -24,12 +24,12 @@ class Hitbox(pygame.sprite.Sprite):
     def coll(self,en):
         hits = pygame.sprite.spritecollide(self, en, False) 
         if self.player.equipped_artifact != None:
-            if self.player.equipped_artifact["uuid"] == "The Artifact of Masters":
+            if self.player.equipped_artifact["name"] == "The Artifact of Masters":
                 return None
         for hit in hits:
             if type(hit) == Wall:
-
-                if hit.color == (0,0,0):
+                print(hit.color)
+                if hit.color == (0,0,0) or hit.color == (255,255,255):
                     self.player.swap()
                     hits.remove(hit)
         return hits
@@ -122,7 +122,7 @@ class Player(pygame.sprite.Sprite):
                     self.potions.pop(pot_n)
                 if pot_n == "The Potion Of Skill":
                     self.dmgmult *= 2
-                if self.equipped_artifact != None and self.equipped_artifact["uuid"] == "The Artifact of Potions God":
+                if self.equipped_artifact != None and self.equipped_artifact["name"] == "The Artifact of Potions God":
                     if self.potions[pot_n] > FPS*60*7:
                         self.potions[pot_n] = -(self.potions[pot_n])
                 elif self.potions[pot_n] < 0:

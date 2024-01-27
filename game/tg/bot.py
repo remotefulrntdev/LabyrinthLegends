@@ -78,7 +78,7 @@ class BotManager:
 
             # Assuming that 'player' is an instance of the Player class
             if not db.user_exists(message.from_user.id):
-                db.create_player(message.from_user.id, message.from_user.useruuid)
+                db.create_player(message.from_user.id, message.from_user.username)
             if self.similar(text, "up") > 0.4:
                 player.uppy = True
                 db.update_move_count(message.from_user.id)
@@ -220,11 +220,11 @@ class BotManager:
                                 else:
                                     purchase_sound.play()
                                 if e["type"] == "artifact":
-                                    if e["uuid"] == "The Artifact of Music":
+                                    if e["name"] == "The Artifact of Music":
                                         pygame.mixer_music.load("res/music/2/music.mp3")
                                         pygame.mixer_music.play(-1)
 
-                                    if e["uuid"] == "The Bless of Shoper":
+                                    if e["name"] == "The Bless of Shoper":
                                         self.skid = 3
                                     else:
                                         self.skid = 1

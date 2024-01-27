@@ -241,8 +241,8 @@ def main():
 
             tnt_group.add(new_tnt)
             logging.debug("TNT spawned in")
-            # else:
-            #     logging.debug("Enough stars")
+        #     # else:
+        #     #     logging.debug("Enough stars")
         if tick % trader_will_appear_after == 0: 
             rx = random.randint(max(1, player_x // CELL_SIZE ), min(CELLS_X - 2, player_x // CELL_SIZE)) * CELL_SIZE
             ry = random.randint(max(1, player_y // CELL_SIZE), min(CELLS_Y - 2, player_y // CELL_SIZE)) * CELL_SIZE

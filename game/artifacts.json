@@ -1,0 +1,8 @@
+[
+    {"uuid": "1234abcd-5678-efgh-ab12-34567tg890abcd", "name": "The Artifact of Music", "desc": "Makes the game's music not so scary ;)", "score_price": 40, "moves_price": 10, "type": "artifact", "level": 1, "image": "res/artifacts/1.png"},
+    {"uuid": "2345bcde-6789-fghi-bc23-456tr78901bcde", "name": "The Artifact of Slowness", "desc": "Artifact, PERMANENTLY slows the Shadow by 2 times.", "score_price": 120, "moves_price": 20, "type": "artifact", "level": 2, "image": "res/artifacts/2.png"},
+    {"uuid": "3456cdef-789a-ghij-cd34-5678rt9012cdef", "name": "The Artifact of Potions God", "desc": "Makes all potions with duration more than 7 minutes PERMANENT.", "score_price": 170, "moves_price": 20, "type": "artifact", "level": 3, "image": "res/artifacts/3.png"},
+    {"uuid": "4567defg-89ab-hijk-de45-67890123defg", "name": "The Bless of Shoper", "desc": "Makes all prices 3X CHEAPER", "score_price": 210, "moves_price": 30, "type": "artifact", "level": 4, "image": "res/artifacts/4.png"},
+    {"uuid": "5678efgh-9abc-ijkl-ef56-7rt8901gthfg234efgh", "name": "The Artifact of Looting", "desc": "PERMANENLY doubles stars you get.", "score_price": 250, "moves_price": 20, "type": "artifact", "level": 5, "image": "res/artifacts/5.png"},
+    {"uuid": "6789fghi-abcd-jklm-gh67-890123fggh45fghi", "name": "The Artifact of Masters", "desc": "Makes you INVINCIBLE to collisions.", "score_price": 350, "moves_price": 20, "type": "artifact", "level": 6, "image": "res/artifacts/6.png"}
+]
