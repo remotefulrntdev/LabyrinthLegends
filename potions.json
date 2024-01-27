@@ -1,0 +1,252 @@
+[
+    {
+        "name": "The Potion Of Skill",
+        "desc": "Doubles your damage.",
+        "duration": 1800,
+        "score_price": 10,
+        "moves_price": 20,
+        "type": "potion",
+        "level": 1,
+        "image": "res/potions/x2.png"
+    },
+    {
+        "name": "The Potion Of Skill",
+        "desc": "Doubles your damage.",
+        "duration": 4500,
+        "score_price": 20,
+        "moves_price": 40,
+        "type": "potion",
+        "level": 2,
+        "image": "res/potions/x2.png"
+    },
+    {
+        "name": "The Potion Of Skill",
+        "desc": "Doubles your damage.",
+        "duration": 11250,
+        "score_price": 40,
+        "moves_price": 80,
+        "type": "potion",
+        "level": 3,
+        "image": "res/potions/x2.png"
+    },
+    {
+        "name": "The Potion Of Skill",
+        "desc": "Doubles your damage.",
+        "duration": 28125,
+        "score_price": 80,
+        "moves_price": 160,
+        "type": "potion",
+        "level": 4,
+        "image": "res/potions/x2.png"
+    },
+    {
+        "name": "The Potion Of Skill",
+        "desc": "Doubles your damage.",
+        "duration": 70312,
+        "score_price": 160,
+        "moves_price": 320,
+        "type": "potion",
+        "level": 5,
+        "image": "res/potions/x2.png"
+    },
+    {
+        "name": "The Potion Of Slowness",
+        "desc": "Makes the shadow pretty slow",
+        "duration": 2000,
+        "score_price": 20,
+        "moves_price": 20,
+        "type": "potion",
+        "level": 1,
+        "image": "res/potions/slow.png"
+    },
+    {
+        "name": "The Potion Of Slowness",
+        "desc": "Makes the shadow pretty slow",
+        "duration": 2500,
+        "score_price": 40,
+        "moves_price": 40,
+        "type": "potion",
+        "level": 2,
+        "image": "res/potions/slow.png"
+    },
+    {
+        "name": "The Potion Of Slowness",
+        "desc": "Makes the shadow pretty slow",
+        "duration": 6250,
+        "score_price": 80,
+        "moves_price": 80,
+        "type": "potion",
+        "level": 3,
+        "image": "res/potions/slow.png"
+    },
+    {
+        "name": "The Potion Of Slowness",
+        "desc": "Makes the shadow pretty slow",
+        "duration": 15625,
+        "score_price": 160,
+        "moves_price": 160,
+        "type": "potion",
+        "level": 4,
+        "image": "res/potions/slow.png"
+    },
+    {
+        "name": "The Potion Of Slowness",
+        "desc": "Makes the shadow pretty slow",
+        "duration": 39062,
+        "score_price": 320,
+        "moves_price": 320,
+        "type": "potion",
+        "level": 5,
+        "image": "res/potions/slow.png"
+    },
+    {
+        "name": "Star Doubler",
+        "desc": "Doubles stars you get",
+        "duration": 2000,
+        "score_price": 30,
+        "moves_price": 20,
+        "type": "potion",
+        "level": 1,
+        "image": "res/potions/star.png"
+    },
+    {
+        "name": "Star Doubler",
+        "desc": "Doubles stars you get",
+        "duration": 2500,
+        "score_price": 60,
+        "moves_price": 40,
+        "type": "potion",
+        "level": 2,
+        "image": "res/potions/star.png"
+    },
+    {
+        "name": "Star Doubler",
+        "desc": "Doubles stars you get",
+        "duration": 6250,
+        "score_price": 120,
+        "moves_price": 80,
+        "type": "potion",
+        "level": 3,
+        "image": "res/potions/star.png"
+    },
+    {
+        "name": "Star Doubler",
+        "desc": "Doubles stars you get",
+        "duration": 15625,
+        "score_price": 240,
+        "moves_price": 160,
+        "type": "potion",
+        "level": 4,
+        "image": "res/potions/star.png"
+    },
+    {
+        "name": "Star Doubler",
+        "desc": "Doubles stars you get",
+        "duration": 39062,
+        "score_price": 480,
+        "moves_price": 320,
+        "type": "potion",
+        "level": 5,
+        "image": "res/potions/star.png"
+    },
+    {
+        "name": "Defender",
+        "desc": "Makes you take 2x less damage",
+        "duration": 2000,
+        "score_price": 25,
+        "moves_price": 20,
+        "type": "potion",
+        "level": 1,
+        "image": "res/potions/imm.png"
+    },
+    {
+        "name": "Defender",
+        "desc": "Makes you take 2x less damage",
+        "duration": 2500,
+        "score_price": 50,
+        "moves_price": 40,
+        "type": "potion",
+        "level": 2,
+        "image": "res/potions/imm.png"
+    },
+    {
+        "name": "Defender",
+        "desc": "Makes you take 2x less damage",
+        "duration": 6250,
+        "score_price": 100,
+        "moves_price": 80,
+        "type": "potion",
+        "level": 3,
+        "image": "res/potions/imm.png"
+    },
+    {
+        "name": "Defender",
+        "desc": "Makes you take 2x less damage",
+        "duration": 15625,
+        "score_price": 200,
+        "moves_price": 160,
+        "type": "potion",
+        "level": 4,
+        "image": "res/potions/imm.png"
+    },
+    {
+        "name": "Defender",
+        "desc": "Makes you take 2x less damage",
+        "duration": 39062,
+        "score_price": 400,
+        "moves_price": 320,
+        "type": "potion",
+        "level": 5,
+        "image": "res/potions/imm.png"
+    },
+    {
+        "name": "TNT Immuner",
+        "desc": "Makes you immune to the TNT",
+        "duration": 2000,
+        "score_price":20,
+        "moves_price": 20,
+        "type": "potion",
+        "level": 1,
+        "image": "res/potions/tnt.png"
+    },
+    {
+        "name": "TNT Immuner",
+        "desc": "Makes you immune to the TNT",
+        "duration": 2500,
+        "score_price": 40,
+        "moves_price": 40,
+        "type": "potion",
+        "level": 2,
+        "image": "res/potions/tnt.png"
+    },
+    {
+        "name": "TNT Immuner",
+        "desc": "Makes you immune to the TNT",
+        "duration": 6250,
+        "score_price": 80,
+        "moves_price": 80,
+        "type": "potion",
+        "level": 3,
+        "image": "res/potions/tnt.png"
+    },
+    {
+        "name": "TNT Immuner",
+        "desc": "Makes you immune to the TNT",
+        "duration": 15625,
+        "score_price": 160,
+        "moves_price": 160,
+        "type": "potion",
+        "level": 4,
+        "image": "res/potions/tnt.png"
+    },
+    {
+        "name": "TNT Immuner",
+        "desc": "Makes you immune to the TNT",
+        "duration": 39062,
+        "score_price": 320,
+        "moves_price": 320,
+        "type": "potion",
+        "level": 5,
+        "image": "res/potions/tnt.png"
+    }
+]

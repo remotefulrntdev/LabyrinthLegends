@@ -1,0 +1,18 @@
+[
+    {"name": "The Artifact of Skill", "desc": "Pretty neat & basic sword.", "damage": 5, "score_price": 10, "moves_price": 20, "type": "sword", "level": 1, "image": "res/swords/2.png"},
+    {"name": "The Flame Blade", "desc": "A sword that burns with intense fire", "damage": 10, "score_price": 30, "moves_price": 20, "type": "sword", "level": 2, "image": "res/swords/2.png"},
+    {"name": "The Frost Edge", "desc": "A sword that freezes anything it touches", "damage": 8, "score_price": 25, "moves_price": 18, "type": "sword", "level": 3, "image": "res/swords/3.png"},
+    {"name": "The Thunder Strike", "desc": "A sword that unleashes powerful lightning bolts", "damage": 12, "score_price": 40, "moves_price": 22, "type": "sword", "level": 4, "image": "res/swords/4.png"},
+    {"name": "The Shadow Fang", "desc": "A sword that shrouds its wielder in darkness", "damage": 6, "score_price": 20, "moves_price": 16, "type": "sword", "level": 5, "image": "res/swords/5.png"},
+    {"name": "The Light Bringer", "desc": "A sword that radiates with holy light", "damage": 14, "score_price": 50, "moves_price": 24, "type": "sword", "level": 6, "image": "res/swords/6.png"},
+    {"name": "The Dragon Slayer", "desc": "A sword that is effective against dragons", "damage": 16, "score_price": 60, "moves_price": 26, "type": "sword", "level": 7, "image": "res/swords/7.png"},
+    {"name": "The Demon Bane", "desc": "A sword that is effective against demons", "damage": 16, "score_price": 60, "moves_price": 26, "type": "sword", "level": 8, "image": "res/swords/8.png"},
+    {"name": "The Soul Eater", "desc": "A sword that drains the life force of its enemies", "damage": 18, "score_price": 70, "moves_price": 28, "type": "sword", "level": 9, "image": "res/swords/9.png"},
+    {"name": "The Blood Drinker", "desc": "A sword that feeds on the blood of its enemies", "damage": 18, "score_price": 70, "moves_price": 28, "type": "sword", "level": 10, "image": "res/swords/10.png"},
+    {"name": "The Chaos Blade", "desc": "A sword that causes random effects on its enemies", "damage": 20, "score_price": 80, "moves_price": 30, "type": "sword", "level": 11, "image": "res/swords/11.png"},
+    {"name": "The Harmony Blade", "desc": "A sword that restores the health and mana of its wielder", "damage": 10, "score_price": 40, "moves_price": 20, "type": "sword", "level": 12, "image": "res/swords/12.png"},
+    {"name": "The Infinity Blade", "desc": "A sword that has infinite power and durability", "damage": 25, "score_price": 100, "moves_price": 35, "type": "sword", "level": 13, "image": "res/swords/13.png"},
+    {"name": "The Excalibur", "desc": "A legendary sword that only the worthy can wield", "damage": 30, "score_price": 120, "moves_price": 40, "type": "sword", "level": 14, "image": "res/swords/14.png"},
+    {"name": "The Masamune", "desc": "A legendary sword that is said to be the finest in the world", "damage": 30, "score_price": 120, "moves_price": 40, "type": "sword", "level": 15, "image": "res/swords/15.png"},
+    {"name": "The Vorpal Blade", "desc": "A sword that can cut through anything", "damage": 35, "score_price": 140, "moves_price": 45, "type": "sword", "level": 16, "image": "res/swords/4.png"}
+]
