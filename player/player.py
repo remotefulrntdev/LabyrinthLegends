@@ -24,7 +24,7 @@ class Hitbox(pygame.sprite.Sprite):
     def coll(self,en):
         hits = pygame.sprite.spritecollide(self, en, False) 
         if self.player.equipped_artifact != None:
-            if self.player.equipped_artifact["name"] == "The Artifact of Masters":
+            if self.player.equipped_artifact["uuid"] == "The Artifact of Masters":
                 return None
         for hit in hits:
             if type(hit) == Wall:
@@ -90,7 +90,7 @@ class Player(pygame.sprite.Sprite):
         self.won = False
         self.score = 999
         self.equipped_sword = 0
-        self.potions = {"The Potion Of Skill":100000,"The Potion Of Slowness":10000}
+        self.potions = {}
         self.equipped_sword_i = None
         self.equipped_artifact = None
         self.backpack_turned_on = False
@@ -117,12 +117,12 @@ class Player(pygame.sprite.Sprite):
 
         for pot_n in self.potions.keys():
             try:
-                self.potions[pot_n] -= 1
+                self.potions[pot_n] -= 2
                 if self.potions[pot_n] == 0:
                     self.potions.pop(pot_n)
                 if pot_n == "The Potion Of Skill":
                     self.dmgmult *= 2
-                if self.equipped_artifact != None and self.equipped_artifact["name"] == "The Artifact of Potions God":
+                if self.equipped_artifact != None and self.equipped_artifact["uuid"] == "The Artifact of Potions God":
                     if self.potions[pot_n] > FPS*60*7:
                         self.potions[pot_n] = -(self.potions[pot_n])
                 elif self.potions[pot_n] < 0:

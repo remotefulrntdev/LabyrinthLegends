@@ -37,7 +37,7 @@ class Tnt(pygame.sprite.Sprite):
         self.tick += 1
 
 
-        if self.tick % 3 == 0:
+        if self.tick % 10 == 0:
             if self.image == s1:
                 self.image = s2
             else:

@@ -78,7 +78,7 @@ class BotManager:
 
             # Assuming that 'player' is an instance of the Player class
             if not db.user_exists(message.from_user.id):
-                db.create_player(message.from_user.id, message.from_user.username)
+                db.create_player(message.from_user.id, message.from_user.useruuid)
             if self.similar(text, "up") > 0.4:
                 player.uppy = True
                 db.update_move_count(message.from_user.id)
@@ -154,7 +154,7 @@ class BotManager:
                 for selling_item in trader.selling[call.data]:
                     new_btn = types.InlineKeyboardButton(
                         f'{selling_item["name"]} ({selling_item["level"]})',
-                        callback_data=selling_item["name"],
+                        callback_data=selling_item["uuid"],
                     )
                     markup.add(new_btn)
                 self.bot.send_message(
@@ -166,21 +166,22 @@ class BotManager:
                 # checking is an item
                 e = None
                 for item in all_things:
-                    if item["name"] == call.data:
+                    if item["uuid"] == call.data:
                         e = item
                 if e == None:
                     if call.data.startswith("confirm"):
                         n = call.data.split("+")[1]
                         e = None
                         for item in all_things:
-                            if item["name"] == n:
+                            if item["uuid"] == n:
                                 e = item
                         if e == None:
                             return
                         is_selling = False
+                        print(trader_with_minimal_dist[0].selling)
                         for selling_i in trader_with_minimal_dist[0].selling.keys():
-                            print(trader_with_minimal_dist[0].selling[selling_i])
-                            if e in trader_with_minimal_dist[0].selling[selling_i]:
+                            # print(trader_with_minimal_dist[0].selling[selling_i],e)
+                            if Utilz.mathcer(e, trader_with_minimal_dist[0].selling[selling_i]):
                                 print("IS SELLING")
                                 is_selling = True
 
@@ -219,11 +220,11 @@ class BotManager:
                                 else:
                                     purchase_sound.play()
                                 if e["type"] == "artifact":
-                                    if e["name"] == "The Artifact of Music":
+                                    if e["uuid"] == "The Artifact of Music":
                                         pygame.mixer_music.load("res/music/2/music.mp3")
                                         pygame.mixer_music.play(-1)
 
-                                    if e["name"] == "The Bless of Shoper":
+                                    if e["uuid"] == "The Bless of Shoper":
                                         self.skid = 3
                                     else:
                                         self.skid = 1
@@ -248,10 +249,10 @@ class BotManager:
                                 # EQUIP THE THING
 
                                 if e["type"] == "potion":
-                                    if player.potions.get(e["name"], None) == None:
-                                        player.potions[e["name"]] = e["duration"]
+                                    if player.potions.get(e["uuid"], None) == None:
+                                        player.potions[e["uuid"]] = e["duration"]
                                     else:
-                                        player.potions[e["name"]] += e["duration"]
+                                        player.potions[e["uuid"]] += e["duration"]
                                 return
                         self.bot.send_message(
                             call.message.chat.id, f"You have not enought currency!"
@@ -269,7 +270,7 @@ class BotManager:
                 #     return
                 markup = types.InlineKeyboardMarkup()
                 new_btn = types.InlineKeyboardButton(
-                    f"Buy!", callback_data="confirm+" + e["name"]
+                    f"Buy!", callback_data="confirm+" + e["uuid"]
                 )
                 markup.add(new_btn)
                 dat = self.get_info(call.from_user.id)
@@ -278,14 +279,14 @@ class BotManager:
                 if e["type"] == "sword":
                     chars += f"Damage: {e['damage']}\nLevel: {e['level']}\n\n"
                 elif e["type"] == "potion":
-                    chars += f"Duration: {Utilz.timeee(e['duration'])}\n\n"
+                    chars += f"Duration: {Utilz.timeee(e['duration'])}\nLevel: {e['level']}\n\n"
                 elif e["type"] == "pet":
                     # speed":24, "reach":3,"stun_chance":0.0004, "damage_cd":18,damage
                     chars += f"Damage: {e['damage']}\nSpeed: {e['speed']}\nReach: {e['reach']}\nStun chance: {e['stun_chance']}\nDamage cooldown: {e['damage_cd']}\nCoolness: Sick\n\n"
                 self.bot.send_photo(
                     call.message.chat.id,
                     photo=open(e["image"], "rb"),
-                    caption=f'{formatting.hbold(e["name"])}\n\n{formatting.hitalic(e["desc"])}\n\n{chars}\nWanna this item? It costs only {formatting.hbold(str(e["score_price"]//self.skid))} score, but you need to pay additional {formatting.hbold(str(e["moves_price"])//self.skid)} moves. \n\n\nYou have {formatting.hbold(str(dat[0]))} moves and {formatting.hbold(str(dat[1]))} score',
+                    caption=f'{formatting.hbold(e["name"])}\n\n{formatting.hitalic(e["desc"])}\n\n{chars}\nWanna this item? It costs only {formatting.hbold(str(int(e["score_price"])//self.skid))} score, but you need to pay additional {formatting.hbold(str(int(e["moves_price"])//self.skid))} moves. \n\n\nYou have {formatting.hbold(str(dat[0]))} moves and {formatting.hbold(str(dat[1]))} score',
                     reply_markup=markup,
                     parse_mode="HTML",
                 )

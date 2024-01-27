@@ -1,5 +1,6 @@
 [
     {
+        "uuid": "98765abc-1234-5678-abc1-234567890abc",
         "name": "The Potion Of Skill",
         "desc": "Doubles your damage.",
         "duration": 1800,
@@ -10,6 +11,7 @@
         "image": "res/potions/x2.png"
     },
     {
+        "uuid": "87654bcd-2345-6789-bcd2-34567890bcd",
         "name": "The Potion Of Skill",
         "desc": "Doubles your damage.",
         "duration": 4500,
@@ -20,6 +22,7 @@
         "image": "res/potions/x2.png"
     },
     {
+        "uuid": "76543cde-3456-789a-cde3-45678901cde",
         "name": "The Potion Of Skill",
         "desc": "Doubles your damage.",
         "duration": 11250,
@@ -30,6 +33,7 @@
         "image": "res/potions/x2.png"
     },
     {
+        "uuid": "65432def-4567-89ab-def4-56789012def",
         "name": "The Potion Of Skill",
         "desc": "Doubles your damage.",
         "duration": 28125,
@@ -40,6 +44,7 @@
         "image": "res/potions/x2.png"
     },
     {
+        "uuid": "54321efg-5678-9abc-efg5-67890123efg",
         "name": "The Potion Of Skill",
         "desc": "Doubles your damage.",
         "duration": 70312,
@@ -50,6 +55,7 @@
         "image": "res/potions/x2.png"
     },
     {
+        "uuid": "4321fgh-6789-abcd-gh6-78901234gh",
         "name": "The Potion Of Slowness",
         "desc": "Makes the shadow pretty slow",
         "duration": 2000,
@@ -60,6 +66,7 @@
         "image": "res/potions/slow.png"
     },
     {
+        "uuid": "3210ghi-789a-bcde-hi7-89012345hi",
         "name": "The Potion Of Slowness",
         "desc": "Makes the shadow pretty slow",
         "duration": 2500,
@@ -70,6 +77,7 @@
         "image": "res/potions/slow.png"
     },
     {
+        "uuid": "2109hij-89ab-cdef-ij8-90123456ij",
         "name": "The Potion Of Slowness",
         "desc": "Makes the shadow pretty slow",
         "duration": 6250,
@@ -80,6 +88,7 @@
         "image": "res/potions/slow.png"
     },
     {
+        "uuid": "1098ijk-9abc-defg-jk9-01234567jk",
         "name": "The Potion Of Slowness",
         "desc": "Makes the shadow pretty slow",
         "duration": 15625,
@@ -90,6 +99,7 @@
         "image": "res/potions/slow.png"
     },
     {
+        "uuid": "0987jkl-abcd-efgh-kl0-12345678kl",
         "name": "The Potion Of Slowness",
         "desc": "Makes the shadow pretty slow",
         "duration": 39062,
@@ -100,6 +110,7 @@
         "image": "res/potions/slow.png"
     },
     {
+        "uuid": "9876klm-bcde-fghi-lm1-23456789lm",
         "name": "Star Doubler",
         "desc": "Doubles stars you get",
         "duration": 2000,
@@ -110,6 +121,7 @@
         "image": "res/potions/star.png"
     },
     {
+        "uuid": "8765mno-cdef-ghij-no2-34567890no",
         "name": "Star Doubler",
         "desc": "Doubles stars you get",
         "duration": 2500,
@@ -120,6 +132,7 @@
         "image": "res/potions/star.png"
     },
     {
+        "uuid": "7654nop-defg-hijk-op3-45678901op",
         "name": "Star Doubler",
         "desc": "Doubles stars you get",
         "duration": 6250,
@@ -130,6 +143,7 @@
         "image": "res/potions/star.png"
     },
     {
+        "uuid": "6543opq-efgh-ijkl-pq4-56789012pq",
         "name": "Star Doubler",
         "desc": "Doubles stars you get",
         "duration": 15625,
@@ -140,6 +154,7 @@
         "image": "res/potions/star.png"
     },
     {
+        "uuid": "5432pqr-fghi-jklm-qr5-67890123qr",
         "name": "Star Doubler",
         "desc": "Doubles stars you get",
         "duration": 39062,
@@ -150,6 +165,7 @@
         "image": "res/potions/star.png"
     },
     {
+        "uuid": "4321qrs-ghij-klmn-rs6-78901234rs",
         "name": "Defender",
         "desc": "Makes you take 2x less damage",
         "duration": 2000,
@@ -160,6 +176,7 @@
         "image": "res/potions/imm.png"
     },
     {
+        "uuid": "3210rst-hijk-lmno-st7-89012345st",
         "name": "Defender",
         "desc": "Makes you take 2x less damage",
         "duration": 2500,
@@ -170,6 +187,7 @@
         "image": "res/potions/imm.png"
     },
     {
+        "uuid": "2109stu-ijkl-mnop-tu8-90123456tu",
         "name": "Defender",
         "desc": "Makes you take 2x less damage",
         "duration": 6250,
@@ -180,6 +198,7 @@
         "image": "res/potions/imm.png"
     },
     {
+        "uuid": "1098tuv-jklm-nopq-uv9-01234567uv",
         "name": "Defender",
         "desc": "Makes you take 2x less damage",
         "duration": 15625,
@@ -190,6 +209,7 @@
         "image": "res/potions/imm.png"
     },
     {
+        "uuid": "0987uvw-klmn-opqr-vw0-12345678vw",
         "name": "Defender",
         "desc": "Makes you take 2x less damage",
         "duration": 39062,
@@ -200,6 +220,7 @@
         "image": "res/potions/imm.png"
     },
     {
+        "uuid": "9876vwx-mnop-qrs-tx1-23456789tx",
         "name": "TNT Immuner",
         "desc": "Makes you immune to the TNT",
         "duration": 2000,
@@ -210,6 +231,7 @@
         "image": "res/potions/tnt.png"
     },
     {
+        "uuid": "8765wxy-nopq-rstu-xy2-34567890xy",
         "name": "TNT Immuner",
         "desc": "Makes you immune to the TNT",
         "duration": 2500,
@@ -220,6 +242,7 @@
         "image": "res/potions/tnt.png"
     },
     {
+        "uuid": "7654xyz-opqr-stuv-yz3-45678901yz",
         "name": "TNT Immuner",
         "desc": "Makes you immune to the TNT",
         "duration": 6250,
@@ -230,6 +253,7 @@
         "image": "res/potions/tnt.png"
     },
     {
+        "uuid": "6543yza-pqrs-tuvw-za4-56789012za",
         "name": "TNT Immuner",
         "desc": "Makes you immune to the TNT",
         "duration": 15625,
@@ -240,6 +264,7 @@
         "image": "res/potions/tnt.png"
     },
     {
+        "uuid": "5432zab-qrsu-vwxy-ab5-67890123ab",
         "name": "TNT Immuner",
         "desc": "Makes you immune to the TNT",
         "duration": 39062,

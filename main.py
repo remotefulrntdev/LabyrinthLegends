@@ -1,4 +1,6 @@
 import math
+import logging
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s [%(levelname)s] %(message)s",handlers=[logging.FileHandler("debug.log",encoding="utf-8"),logging.StreamHandler()],encoding="utf-8")
 import pygame
 from other.cons import * 
 intro = pygame.transform.scale(pygame.image.load("res/intro.png"), (WIDTH,HEIGHT))
@@ -17,7 +19,7 @@ from dotenv import load_dotenv
 import random
 import sys
 import threading
-import logging
+
 from player.player import Player
 from player.shadow import PlayersShadow
 from environment.wall import Wall 
@@ -33,7 +35,7 @@ from environment.pet import Pet
 from environment.tnt import Tnt
 
 
-logging.basicConfig(level=logging.DEBUG)
+
 load_dotenv()
 
 API_TOKEN = os.getenv('KEY')
@@ -70,9 +72,9 @@ all_items =sw
 all_items.extend(pt)
 all_items.extend(ar)
 all_items.extend(pz)
-loaded_srfs = {f["name"]: pygame.transform.scale(pygame.image.load(f["image"]), (75,75)) for f in all_items}
+loaded_srfs = {f["uuid"]: pygame.transform.scale(pygame.image.load(f["image"]), (75,75)) for f in all_items}
 
-loaded_pots = {f["name"]: pygame.transform.scale(pygame.image.load(f["image"]), (57,57)) for f in pt}
+loaded_pots = {f["uuid"]: pygame.transform.scale(pygame.image.load(f["image"]), (57,57)) for f in pt}
 
 sword_ui = pygame.transform.scale(pygame.image.load("res/sword_ui.png"), (150,150))
 artifact_ui = pygame.transform.scale(pygame.image.load("res/artifact_ui.png"), (150,150))
@@ -190,11 +192,11 @@ def main():
         cursor.execute("SELECT * FROM players")
         players = cursor.fetchall()
         connection.close()
-        best = {"moves": 0, "id": 00000, "banned": 0, "tg_name": "real_master"}
+        best = {"moves": 0, "id": 00000, "banned": 0, "tg_uuid": "real_master"}
         # Update move counts
         for player_data in players:
             # new fomat: 
-            data = {"tg_id":player_data[0],"moves": player_data[1], "banned": player_data[2], "tg_name": player_data[3]}
+            data = {"tg_id":player_data[0],"moves": player_data[1], "banned": player_data[2], "tg_uuid": player_data[3]}
             if data["moves"] > best["moves"] and (data["banned"] == 0 or data["banned"] == None):
                 best = data
         # Spawn stars
@@ -255,18 +257,19 @@ def main():
             trader_group.add(new_trader)
 
             trader_will_appear_after = random.randint(FPS,FPS*30)
-
+        stars_group.draw(screen)
         wall_thrd.join() # we making separate theard for optimisation there are like 90k of walls
+
         if current_world == 1:
             walls.draw(screen)
         else:
             walls2.draw(screen)
         tnt_group.draw(screen)
-        stars_group.draw(screen)
+
         for trader in trader_group.sprites():
             trader.blit_img(screen)
         trader_group.draw(screen)
-        Utilz.draw_text(screen, "Player with most moves: @" + str(best["tg_name"])+", count of their moves: "+str(best["moves"]), 18, WIDTH / 2, 10)
+        Utilz.draw_text(screen, "Player with most moves: @" + str(best["tg_uuid"])+", count of their moves: "+str(best["moves"]), 18, WIDTH / 2, 10)
         # draw last message in top right
         Utilz.draw_text(screen, "Last message: " + bot_manager.last_message, 18, WIDTH/2, 30)
         if player.health <= 0:
@@ -298,7 +301,7 @@ def main():
         if player.equipped_sword_i != None: 
 
 
-            n = player.equipped_sword_i["name"]
+            n = player.equipped_sword_i["uuid"] 
             srf = loaded_srfs[n]
             random_rect_2 = srf.get_rect()
             random_rect_2.center = random_rect.center
@@ -306,7 +309,7 @@ def main():
 
             screen.blit(srf, random_rect_2)
         if player.equipped_artifact != None: 
-            n = player.equipped_artifact["name"]
+            n = player.equipped_artifact["uuid"]
             srf = loaded_srfs[n]
             random_rect_4 = srf.get_rect()
             random_rect_4.center = random_rect_3.center
@@ -314,7 +317,7 @@ def main():
             screen.blit(srf, random_rect_4)
         if player.equipped_pet != None:
             Utilz.draw_text(screen, player.equipped_pet["name"].upper(), 26, player.pet.rect.centerx, player.pet.rect.top-40)
-        pots = ", ".join([key + f" ({round(value/FPS)})" for key, value in player.potions.items()])
+            player.pet.after_draw(screen)
         # Utilz.draw_text(screen, "Your potions: " + pots, 26, WIDTH/2, 130)
         if player.backpack_turned_on:
             screen.blit(backpack, rr_5)
@@ -327,7 +330,7 @@ def main():
             for pot, duration in player.potions.items():
                 new_random_rect = pygame.Rect((base_x, base_y),Utilz.a_tuples((57, 57), (0,rr_5.top)))
                 screen.blit(loaded_pots[pot], new_random_rect)
-                Utilz.draw_text_with_next_line(screen, pot, 17, base_x+135, base_y+0,130)
+                Utilz.draw_text_with_next_line(screen, Utilz.uuid_to_item(pot)["name"], 17, base_x+135, base_y+0,130)
                 Utilz.draw_text(screen, Utilz.timeee(duration), 17, base_x+135, base_y+40)
                 base_x += x_mod
                 base_y += y_mod

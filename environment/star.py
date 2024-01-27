@@ -22,7 +22,7 @@ class Star(pygame.sprite.Sprite):
             self.image = s2
         if player.rect.colliderect(self.rect):
             self.my_sound.play()
-            mod = 2 if player.equipped_artifact!= None and player.equipped_artifact["name"]== "The Artifact of Looting" else 1
+            mod = 2 if player.equipped_artifact!= None and player.equipped_artifact["uuid"]== "The Artifact of Looting" else 1
             mod *= 2 if "Star Doubler" in player.potions.keys() else 1
             player.score += 1 * (3 if world == 2 else 1) * mod 
             self.kill() # F

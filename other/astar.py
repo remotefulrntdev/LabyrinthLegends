@@ -1,7 +1,8 @@
 import heapq
 import logging
 import pygame 
-from other.cons import CELL_SIZE
+from other.cons import CELL_SIZE, FPS
+import time
 # Heuristic
 def heuristic(node, goal):
     x1, y1 = node
@@ -18,8 +19,11 @@ class Finder:
     def run(self, r):
         if not r: 
             while True:
+                # if len(self.start.groups()) < 1:
+                #     break 
+                t = time.time()
                 self.path = astar(self.start.rect.topleft, self.end.rect.topleft, self.walls)
-                pygame.time.wait(70)
+                pygame.time.wait(80)
 # A*
 def astar(start_pos, end_pos, obstacles: pygame.sprite.Group):
     open_set = []

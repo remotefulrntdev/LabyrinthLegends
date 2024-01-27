@@ -46,7 +46,7 @@ class PlayersShadow(pygame.sprite.Sprite):
         self.move_speed = self.move_speeds[self.speed_type]
         if "The Potion Of Slowness" in player.potions.keys():
              self.move_speed /= 2
-        if player.equipped_artifact != None and "The Artifact of Slowness" == player.equipped_artifact["name"]:
+        if player.equipped_artifact != None and "The Artifact of Slowness" == player.equipped_artifact["uuid"]:
             self.move_speed /= 2
         if 0 < self.darkness_animation_progress <= FPS * 4.25 * 2 + 1:
             self.health = self.max_health

@@ -4,6 +4,19 @@ import pygame
 from environment.wall import Wall 
 from other.cons import *
 import random
+import json 
+def load_js(fil):
+    with open(fil, "r") as f:
+        return json.load(f)
+sw:list = load_js("swords.json")
+pt:list  = load_js("potions.json")
+pz:list  = load_js("pets.json")
+ar:list  = load_js("artifacts.json")
+
+all_items =sw 
+all_items.extend(pt)
+all_items.extend(ar)
+all_items.extend(pz)
 class Utilz:
     @staticmethod
     def interpolate_color(start_color, end_color, progress, contrast):
@@ -174,3 +187,15 @@ class Utilz:
         minutes = int(total_seconds // 60)
         seconds = int(total_seconds % 60)
         return f"{minutes:02d}:{seconds:02d}"
+    @staticmethod
+    def mathcer(match, items):
+        for item in items:
+            if item["uuid"] == match["uuid"]:
+                print("Matched")
+                return True
+            else:
+                print(match["uuid"], "!=",item["uuid"])
+        return False
+    @staticmethod
+    def uuid_to_item(uuid):
+        return list(filter(lambda v: v["uuid"] == uuid,all_items))[0]
