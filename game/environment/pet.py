@@ -1,5 +1,7 @@
 import logging
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 from other.cons import CELL_SIZE, FPS, WHITE
 from other.astar import Finder
 import random
@@ -103,7 +105,7 @@ class Pet(pygame.sprite.Sprite):
                 self.rect.topleft = self.path.pop()
         if self.tick % 10 == 0 and len(self.moves) > 0:
 
-            print(self.moves.pop(-1))
+            self.moves.pop(0)
     def after_draw(self,screen):
         if self.player.equipped_pet["uuid"] == "4567defg-89ab-hijk-de45-67890123defg": # water thing 
             water_drop_r = water_drop.get_rect()

@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
         "label": "tkinter",
         "kind": 6,
         "isExtraImport": true,
@@ -45,21 +54,12 @@
         "documentation": {}
     },
     {
-        "label": "logging",
+        "label": "contextlib",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "pygame",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pygame",
-        "description": "pygame",
-        "detail": "pygame",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "detail": "contextlib",
         "documentation": {}
     },
     {
@@ -389,6 +389,15 @@
         "documentation": {}
     },
     {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
         "label": "build",
         "importPath": "googleapiclient.discovery",
         "description": "googleapiclient.discovery",
@@ -593,23 +602,6 @@
         "documentation": {}
     },
     {
-        "label": "argparse,os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "argparse.os",
-        "description": "argparse.os",
-        "detail": "argparse.os",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "main",
-        "description": "main",
-        "isExtraImport": true,
-        "detail": "main",
-        "documentation": {}
-    },
-    {
         "label": "PlayersShadow",
         "importPath": "player.shadow",
         "description": "player.shadow",
@@ -646,7 +638,7 @@
         "kind": 2,
         "importPath": "bloknot.main",
         "description": "bloknot.main",
-        "peekOfCode": "def path_to_name(p):\n    path = pathlib.PurePath(p)\n    return path.name\ndef title_changer(pref, path):\n    print(path)\n    if path == \"New file\":\n        root.title(f\"New file - Notepad {pref}\")\n    else:\n        root.title(f\"{path_to_name(path)} - Notepad {pref}\")\ndef cut():",
+        "peekOfCode": "def path_to_name(p):\n    path = pathlib.PurePath(p)\n    return path.name\ndef title_changer(pref, path):\n    if path == \"New file\":\n        root.title(f\"New file - Notepad {pref}\")\n    else:\n        root.title(f\"{path_to_name(path)} - Notepad {pref}\")\ndef cut():\n    text_w.event_generate(\"<<Cut>>\")",
         "detail": "bloknot.main",
         "documentation": {}
     },
@@ -655,7 +647,7 @@
         "kind": 2,
         "importPath": "bloknot.main",
         "description": "bloknot.main",
-        "peekOfCode": "def title_changer(pref, path):\n    print(path)\n    if path == \"New file\":\n        root.title(f\"New file - Notepad {pref}\")\n    else:\n        root.title(f\"{path_to_name(path)} - Notepad {pref}\")\ndef cut():\n    text_w.event_generate(\"<<Cut>>\")\ndef copy():\n    text_w.event_generate(\"<<Copy>>\")",
+        "peekOfCode": "def title_changer(pref, path):\n    if path == \"New file\":\n        root.title(f\"New file - Notepad {pref}\")\n    else:\n        root.title(f\"{path_to_name(path)} - Notepad {pref}\")\ndef cut():\n    text_w.event_generate(\"<<Cut>>\")\ndef copy():\n    text_w.event_generate(\"<<Copy>>\")\ndef paste():",
         "detail": "bloknot.main",
         "documentation": {}
     },
@@ -763,7 +755,7 @@
         "kind": 2,
         "importPath": "bloknot.main",
         "description": "bloknot.main",
-        "peekOfCode": "def typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n    else:\n        print(\"end\")\n    root.after(50, typer)\nroot.after(50, typer)\n# if __name__ == '__main__':",
+        "peekOfCode": "def typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n        root.after(25, typer)\n    else:\n        logging.info(\"The script ended.\")\nroot.after(25, typer)\n# if __name__ == '__main__':",
         "detail": "bloknot.main",
         "documentation": {}
     },
@@ -853,7 +845,7 @@
         "kind": 5,
         "importPath": "bloknot.main",
         "description": "bloknot.main",
-        "peekOfCode": "text = fr[\"text\"]\nindx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n    else:\n        print(\"end\")\n    root.after(50, typer)",
+        "peekOfCode": "text = fr[\"text\"]\nindx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n        root.after(25, typer)\n    else:\n        logging.info(\"The script ended.\")",
         "detail": "bloknot.main",
         "documentation": {}
     },
@@ -862,7 +854,7 @@
         "kind": 5,
         "importPath": "bloknot.main",
         "description": "bloknot.main",
-        "peekOfCode": "indx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n    else:\n        print(\"end\")\n    root.after(50, typer)\nroot.after(50, typer)",
+        "peekOfCode": "indx = -1\ndef typer():\n    global indx\n    indx += 1\n    if indx < len(text):\n        text_w.insert(tk.END, text[indx])\n        root.after(25, typer)\n    else:\n        logging.info(\"The script ended.\")\nroot.after(25, typer)",
         "detail": "bloknot.main",
         "documentation": {}
     },
@@ -1807,7 +1799,7 @@
         "kind": 5,
         "importPath": "game.tg.bot",
         "description": "game.tg.bot",
-        "peekOfCode": "attack_sounds = [\n    pygame.mixer.Sound(os.path.join(\"res/music/attack\", file))\n    for file in os.listdir(\"res/music/attack\")\n    if file.endswith((\".mp3\", \".wav\", \".ogg\", \".flac\"))\n]\npotion_sound = pygame.mixer.Sound(\"res/music/loot/potion.ogg\")\npurchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")",
+        "peekOfCode": "attack_sounds = [\n    pygame.mixer.Sound(os.path.join(\"res/music/attack\", file))\n    for file in os.listdir(\"res/music/attack\")\n    if file.endswith((\".mp3\", \".wav\", \".ogg\", \".flac\"))\n]\npotion_sound = pygame.mixer.Sound(\"res/music/loot/potion.ogg\")\npurchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\ninv_toggle = pygame.mixer.Sound(\"res/music/inv/1.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):",
         "detail": "game.tg.bot",
         "documentation": {}
     },
@@ -1816,7 +1808,7 @@
         "kind": 5,
         "importPath": "game.tg.bot",
         "description": "game.tg.bot",
-        "peekOfCode": "potion_sound = pygame.mixer.Sound(\"res/music/loot/potion.ogg\")\npurchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1",
+        "peekOfCode": "potion_sound = pygame.mixer.Sound(\"res/music/loot/potion.ogg\")\npurchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\ninv_toggle = pygame.mixer.Sound(\"res/music/inv/1.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow",
         "detail": "game.tg.bot",
         "documentation": {}
     },
@@ -1825,7 +1817,16 @@
         "kind": 5,
         "importPath": "game.tg.bot",
         "description": "game.tg.bot",
-        "peekOfCode": "purchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1\n        @self.bot.message_handler(commands=[\"start\"])",
+        "peekOfCode": "purchase_sound = pygame.mixer.Sound(\"res/music/loot/purchase.ogg\")\ninv_toggle = pygame.mixer.Sound(\"res/music/inv/1.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1",
+        "detail": "game.tg.bot",
+        "documentation": {}
+    },
+    {
+        "label": "inv_toggle",
+        "kind": 5,
+        "importPath": "game.tg.bot",
+        "description": "game.tg.bot",
+        "peekOfCode": "inv_toggle = pygame.mixer.Sound(\"res/music/inv/1.ogg\")\nclass BotManager:\n    def __init__(self, API_TOKEN, player, traders, shadow):\n        self.bot = TeleBot(API_TOKEN, skip_pending=True, parse_mode=\"MARKDOWN\")\n        self.last_message = \"\"\n        self.player: Player = player\n        self.traders = traders\n        self.shadow = shadow\n        self.skid = 1\n        @self.bot.message_handler(commands=[\"start\"])",
         "detail": "game.tg.bot",
         "documentation": {}
     },
@@ -1870,7 +1871,7 @@
         "kind": 5,
         "importPath": "game.main",
         "description": "game.main",
-        "peekOfCode": "intro = pygame.transform.scale(pygame.image.load(\"res/intro.png\"), (WIDTH,HEIGHT))\npygame.init()\npygame.mixer_music.load(\"res/music/1/music.mp3\")\npygame.mixer_music.play(-1)\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Labyrinth Legends - RNT DEVELOPMENT\")\nclock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nimport os",
+        "peekOfCode": "intro = pygame.transform.scale(pygame.image.load(\"res/intro.png\"), (WIDTH,HEIGHT))\npygame.init()\npygame.mixer_music.load(\"res/music/1/music.mp3\")\npygame.mixer_music.play(-1)\nscreen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Labyrinth Legends - RNT DEVELOPMENT\")\nclock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nfrom dotenv import load_dotenv",
         "detail": "game.main",
         "documentation": {}
     },
@@ -1879,7 +1880,7 @@
         "kind": 5,
         "importPath": "game.main",
         "description": "game.main",
-        "peekOfCode": "screen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Labyrinth Legends - RNT DEVELOPMENT\")\nclock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nimport os\nfrom dotenv import load_dotenv\nimport random\nimport sys\nimport threading",
+        "peekOfCode": "screen = pygame.display.set_mode((WIDTH, HEIGHT))\npygame.display.set_caption(\"Labyrinth Legends - RNT DEVELOPMENT\")\nclock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nfrom dotenv import load_dotenv\nimport random\nimport sys\nimport threading\nfrom player.player import Player",
         "detail": "game.main",
         "documentation": {}
     },
@@ -1888,7 +1889,7 @@
         "kind": 5,
         "importPath": "game.main",
         "description": "game.main",
-        "peekOfCode": "clock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nimport os\nfrom dotenv import load_dotenv\nimport random\nimport sys\nimport threading\nfrom player.player import Player\nfrom player.shadow import PlayersShadow",
+        "peekOfCode": "clock = pygame.time.Clock()\nscreen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))\npygame.display.flip()\nfrom dotenv import load_dotenv\nimport random\nimport sys\nimport threading\nfrom player.player import Player\nfrom player.shadow import PlayersShadow\nfrom environment.wall import Wall ",
         "detail": "game.main",
         "documentation": {}
     },

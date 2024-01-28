@@ -1,6 +1,8 @@
 import heapq
 import logging
-import pygame 
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame 
 from other.cons import CELL_SIZE, FPS
 import time
 # Heuristic

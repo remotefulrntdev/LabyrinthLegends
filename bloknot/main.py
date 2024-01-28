@@ -1,9 +1,13 @@
 import json
+import logging
 import tkinter as tk
 import tkinter.filedialog as fd
 import webbrowser
 import  os, subprocess, pathlib
 import sys
+with open("../log_setup.py") as f:
+    exec(f.read())
+
 root = tk.Tk()
 root.title("New file - Notepad")
 root.iconbitmap("img/icon.ico")
@@ -25,7 +29,6 @@ def path_to_name(p):
     path = pathlib.PurePath(p)
     return path.name
 def title_changer(pref, path):
-    print(path)
     if path == "New file":
         root.title(f"New file - Notepad {pref}")
     else:
@@ -154,10 +157,11 @@ def typer():
     indx += 1
     if indx < len(text):
         text_w.insert(tk.END, text[indx])
+        root.after(25, typer)
     else:
-        print("end")
-    root.after(50, typer)
-root.after(50, typer)
+        logging.info("The script ended.")
+
+root.after(25, typer)
 # if __name__ == '__main__':
 root.mainloop()
 

@@ -1,4 +1,6 @@
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 from other.cons import WHITE
 class Wall(pygame.sprite.Sprite):
     def __init__(self,pos,color) -> None:

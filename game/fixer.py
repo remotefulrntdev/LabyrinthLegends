@@ -1,13 +1,17 @@
-import argparse,os 
+import os 
 try:
     import sqlite3
 except ImportError:
     os.system("pip install sqlite3")
     import sqlite3
 try:
-    import pygame
+    import contextlib
+    with contextlib.redirect_stdout(None):
+        import pygame
 except ImportError:
     os.system("pip install pygame")
+    import contextlib
+with contextlib.redirect_stdout(None):
     import pygame
 try:
     import dotenv
@@ -19,6 +23,10 @@ try:
 except ImportError:
     os.system("pip install telebot")
     import telebot
-from main import main 
-while True:
-    main()
+import sys
+
+for idx, arg in enumerate(sys.argv):
+    if arg == "main":
+        from main import main 
+        while True:
+            main()

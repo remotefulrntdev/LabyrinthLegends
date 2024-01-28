@@ -1,7 +1,12 @@
 import math
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
+import os
 import logging
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s [%(levelname)s] %(message)s",handlers=[logging.FileHandler("debug.log",encoding="utf-8"),logging.StreamHandler()],encoding="utf-8")
-import pygame
+with open("../log_setup.py") as f:
+    exec(f.read())
+
 from other.cons import * 
 intro = pygame.transform.scale(pygame.image.load("res/intro.png"), (WIDTH,HEIGHT))
 pygame.init()
@@ -13,7 +18,7 @@ clock = pygame.time.Clock()
 screen.blit(intro, pygame.Rect((0,0), (WIDTH,HEIGHT)))
 pygame.display.flip()
 
-import os
+
 from dotenv import load_dotenv
 
 import random

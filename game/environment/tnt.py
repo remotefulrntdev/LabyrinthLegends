@@ -1,4 +1,6 @@
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 from player.player import Player
 import random
 from other.utilz import Utilz

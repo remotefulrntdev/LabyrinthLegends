@@ -1,5 +1,7 @@
 import math
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 
 from environment.wall import Wall 
 from other.cons import *
@@ -39,7 +41,10 @@ class Utilz:
         #
         # 20.01.2024:
         # подальші записи знищено бо мене з'їв скібіді туалет
-
+        #
+        #
+        # 28.01.2024:
+        # rip
 
         exits = []
         grid = [[False] * CELLS_Y for _ in range(CELLS_X)]
@@ -191,10 +196,10 @@ class Utilz:
     def mathcer(match, items):
         for item in items:
             if item["uuid"] == match["uuid"]:
-                print("Matched")
+                # print("Matched")
                 return True
-            else:
-                print(match["uuid"], "!=",item["uuid"])
+            # else:
+            #     print(match["uuid"], "!=",item["uuid"])
         return False
     @staticmethod
     def uuid_to_item(uuid):

@@ -2,7 +2,9 @@
 
 from dotenv import load_dotenv
 import logging
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 import random
 from telebot import TeleBot, types
 from difflib import SequenceMatcher
@@ -39,7 +41,7 @@ attack_sounds = [
 ]
 potion_sound = pygame.mixer.Sound("res/music/loot/potion.ogg")
 purchase_sound = pygame.mixer.Sound("res/music/loot/purchase.ogg")
-
+inv_toggle = pygame.mixer.Sound("res/music/inv/1.ogg")
 
 class BotManager:
     def __init__(self, API_TOKEN, player, traders, shadow):
@@ -120,6 +122,7 @@ class BotManager:
                 logging.debug(dist)
             elif self.similar(text, "backpack") > 0.4:
                 self.player.backpack_turned_on = not self.player.backpack_turned_on
+                inv_toggle.play()
             else:
                 self.bot.send_message(
                     message.chat.id,
@@ -178,19 +181,19 @@ class BotManager:
                         if e == None:
                             return
                         is_selling = False
-                        print(trader_with_minimal_dist[0].selling)
-                        for selling_i in trader_with_minimal_dist[0].selling.keys():
-                            # print(trader_with_minimal_dist[0].selling[selling_i],e)
-                            if Utilz.mathcer(e, trader_with_minimal_dist[0].selling[selling_i]):
-                                print("IS SELLING")
-                                is_selling = True
+                        # print(trader_with_minimal_dist[0].selling)
+                        # for selling_i in trader_with_minimal_dist[0].selling.keys():
+                        #     # print(trader_with_minimal_dist[0].selling[selling_i],e)
+                        #     if Utilz.mathcer(e, trader_with_minimal_dist[0].selling[selling_i]):
+                        #         print("IS SELLING")
+                        #         is_selling = True
 
-                        if not is_selling:
-                            self.bot.send_message(
-                                call.message.chat.id,
-                                "I don't sell that! Are you trying to scam me?!",
-                            )
-                            return
+                        # if not is_selling:
+                        #     self.bot.send_message(
+                        #         call.message.chat.id,
+                        #         "I don't sell that! Are you trying to scam me?!",
+                        #     )
+                        #     return
                         if e in player.unlocked:
                             if e["type"] == "artifact":
                                 player.equipped_artifact = e
@@ -223,7 +226,9 @@ class BotManager:
                                     if e["name"] == "The Artifact of Music":
                                         pygame.mixer_music.load("res/music/2/music.mp3")
                                         pygame.mixer_music.play(-1)
-
+                                    else:
+                                        pygame.mixer_music.load("res/music/1/music.mp3")
+                                        pygame.mixer_music.play(-1)
                                     if e["name"] == "The Bless of Shoper":
                                         self.skid = 3
                                     else:

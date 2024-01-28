@@ -1,6 +1,8 @@
 import logging
 from other.cons import *
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 from other.utilz import Utilz
 from environment.wall import Wall
 import json 
@@ -28,7 +30,6 @@ class Hitbox(pygame.sprite.Sprite):
                 return None
         for hit in hits:
             if type(hit) == Wall:
-                print(hit.color)
                 if hit.color == (0,0,0) or hit.color == (255,255,255):
                     self.player.swap()
                     hits.remove(hit)
@@ -88,7 +89,7 @@ class Player(pygame.sprite.Sprite):
         self.trader_group = traders
         self.moves = []
         self.won = False
-        self.score = 999
+        self.score = 1
         self.equipped_sword = 0
         self.potions = {}
         self.equipped_sword_i = None
