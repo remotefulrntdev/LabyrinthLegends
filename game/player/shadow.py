@@ -117,7 +117,7 @@ class PlayersShadow(pygame.sprite.Sprite):
                 move_amount = 50
                 self.rect.x += move_amount * (poped == "right") - move_amount * (poped == "left")
                 self.rect.y += move_amount * (poped == "down") - move_amount * (poped == "up")
-                self.cooldown = int(self.move_speeds[self.speed_type] * 10)
+                self.cooldown = int(self.move_speeds[self.speed_type] * 20)
 
         speed_desc = ["SLEEPING", "MOVING SLOWLY", "MOVING MEDIUM", "MOVING FAST"]
         speed_desc.reverse()

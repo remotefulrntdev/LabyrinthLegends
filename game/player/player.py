@@ -89,7 +89,7 @@ class Player(pygame.sprite.Sprite):
         self.trader_group = traders
         self.moves = []
         self.won = False
-        self.score = 1
+        self.score = 0
         self.equipped_sword = 0
         self.potions = {}
         self.equipped_sword_i = None

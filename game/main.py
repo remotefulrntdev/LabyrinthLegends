@@ -4,6 +4,7 @@ with contextlib.redirect_stdout(None):
     import pygame
 import os
 import logging
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 with open("../log_setup.py") as f:
     exec(f.read())
 
@@ -143,7 +144,7 @@ def main():
     running = True
     rr_5 = backpack.get_rect()
     rr_5.center = (0+ rr_5.width/2,HEIGHT/2)
-    pygame.time.wait(6000)
+
     rp_timer = 0
     bot_manager = BotManager(API_TOKEN, player, trader_group,shadow) 
     bot_thread = threading.Thread(target=bot_manager.start, daemon=True)
@@ -225,11 +226,7 @@ def main():
 
                 stars_group.add(new_star)
         # Spawn tnt
-        if tick % (FPS*6) == 0:
-
-
-                
-                
+        if tick % (FPS*12) == 0:
             player_x, player_y = player.rect.topleft
             
             rx = random.randint(max(1, player_x // CELL_SIZE ), min(CELLS_X - 2, player_x // CELL_SIZE)) * CELL_SIZE
@@ -239,7 +236,6 @@ def main():
             ry += random.randint(1,4)*CELL_SIZE
 
             if current_world == 1:
-
                 new_tnt = Tnt((rx, ry), tnt_group, walls,shadow,stars_group)   
             else:
                 new_tnt = Tnt((rx, ry), tnt_group, walls2,shadow,stars_group)            
@@ -282,7 +278,7 @@ def main():
             player.died = True
         Utilz.draw_text(screen, shadow.state, 24, shadow.rect.centerx,shadow.rect.top)
         Utilz.draw_text(screen, str(shadow.health) + " HP", 24, shadow.rect.centerx,shadow.rect.top-30)
-        Utilz.draw_text(screen, str(shadow.rebirths) + " REBIRTHS", 24, shadow.rect.centerx,shadow.rect.top-60)
+        Utilz.draw_text(screen, str(shadow.rebirths) + " SHADOW REBIRTHS", 24, shadow.rect.centerx,shadow.rect.top-60)
         # we should divide spacing by 2, find the center of the screen, and add to that point spacing and set it as right. (right).
         spacing = 32
         random_rect = sword_ui.get_rect()
